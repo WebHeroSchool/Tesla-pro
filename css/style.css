@@ -17,13 +17,11 @@
 }
 
 .header__logo-img {
-  margin-right: 258px;
-  padding-left: 43px;
+  margin-right: 250px;
 }
 
 .menubar {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -58,19 +56,21 @@
 }
 
 .menubar__link:nth-child(4) {
-  margin-right: 46px;
+  margin-right: 48px;
 }
 
 .menubar__link:nth-child(5) {
-  margin-right: 223px;
+  margin-right: 221px;
 }
 
 .menubar__link:nth-child(6) {
-  margin-right: 30px;
+  margin-right: 32px;
+  font-size: 16px;
 }
 
 .menubar__link:nth-child(7) {
-  margin-right: 30px;
+  margin-right: 32px;
+  font-size: 16px;
 }
 
 .button {
@@ -83,7 +83,7 @@
 }
 
 .button:nth-child(8) {
-  margin-right: 60px;
+  margin-right: 10px;
 }
 
 .button__line {
@@ -113,7 +113,8 @@
   position: relative;
   background: url("../img/jpg/Tesla\ logo\ car.jpg");
   background-repeat: no-repeat;
-  margin-right: -8px;
+  background-position-y: -13px;
+  background-position-x: -46px;
 }
 
 .content__main-title, 
@@ -136,14 +137,14 @@
 
 .content__data-car {
   display: flex;
-  margin: 470px 0px 0 278px;
+  margin: 478px 0 25px 270px;
   justify-content: space-between;
   align-items: center;
 }
 
 .content__facts {
   display: flex;
-  margin-right: 135px;
+  margin-right: 115px;
   justify-content: space-between;
   align-items: center;
 }
@@ -151,15 +152,17 @@
 .data__speed-icon {
   width: 54px;
   height: 42px;
+  padding-right: 10px;
 }
 
 .content__road-icon {
   width: 40px;
   height: 59px;
+  padding-right: 10px;
 }
 
 .data__speed-block {
-  padding-right: 100px;
+  padding-right: 68px;
 }
 
 .data__figures {
@@ -169,24 +172,39 @@
 
 .data__speed {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .data__specifications {
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
 }
 
-.testdrive__img {
-  width: 128px;
-  height: 30px;
+.testdrive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  width: 118px;
   margin-right: 40px;
+}
+.testdrive__img {
+  width: 22px;
+  height: 22px;
+  padding-right: 5px;
+}
+
+.testdrive__text {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+
 }
 
 .order-btn {
-  margin-right: 278px;
+  margin-right: 275px;
   border: 2px solid #e51937;
-  width: 228px;
+  width: 213px;
   height: 40px;
   background-color: #fff;
   font-weight: bold;
@@ -204,4 +222,30 @@
   background-color: #e51937;
   transition: all 0.5s ease 0s; 
   box-shadow: 0px 3px 3px 1px #9b9999;
+}
+
+.arrow {
+  background-color: #fff;
+  width: 24px;
+  height: 15px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  margin: auto;
+}
+
+.arrow__line {
+  position: absolute;
+  width: 22px;
+  height: 3px;
+  background-color: #e51937;
+}
+
+.first-ln {
+  transform: translate(-7px, 7px) rotate(45deg);
+  top: 7px; 
+}
+
+.second-ln {
+  transform: translate(7px, -7px) rotate(-45deg); 
+  top: 21px;
 }

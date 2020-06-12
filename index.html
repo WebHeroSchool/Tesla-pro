@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="body">
+    <div class="container">
     <header class="header">
       <img class="header__logo-img" src="img/png/Tesla-Wordmark-Red.png" alt="Tesla">
       <nav class="menubar header__menubar">
@@ -25,6 +26,7 @@
         </a>
       </nav>
     </header>
+  </div>
     <main class="main">
     <section class="content">
       <h1 class="content__main-title">
@@ -37,8 +39,8 @@
         <div class="content__facts data">
           <img class="data__speed-icon" src="img/png/Speed.png" alt="data car">
           <div class="data__speed-block">
-            <span class="data__figures">2,7</span>
-            <span class="data__speed">сек</span>
+              <span class="data__figures">2,7</span>
+              <span class="data__speed">сек</span>
             <span class="data__specifications">0-100 км/час</span>
           </div>
           <img class="content__road-icon" src="img/png/Road icon.png" alt="road">
@@ -48,8 +50,15 @@
             <span class="data__specifications">запас хода</span>
           </div>
         </div>
-        <img class="testdrive__img" src="img/png/Test drive 1.png" alt="wheel">
+        <div class="content__testdive testdrive">
+          <img class="testdrive__img" src="img/png/steering-wheel.png" alt="wheel">
+          <span class="testdrive__text">Тест драйв</span>
+        </div>
         <button class="order-btn">Заказать</button>
+      </div>
+      <div class="arrow">
+        <span class="arrow__line first-ln"></span>
+        <span class="arrow__line second-ln"></span>
       </div>
     </section>
     <section class="wrap-information">
