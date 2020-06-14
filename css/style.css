@@ -77,7 +77,7 @@
   display: block;
   background-color: #fff;
   width: 24px;
-  height: 15px;
+  height: 16px;
   position: relative;
   transition: all 0.5s ease 0s;
 }
@@ -128,21 +128,27 @@
 .content__title {
   font-weight: 600;
   font-size: 16px;
-  padding-bottom: 26px;
+  /* padding-bottom: 26px; */
 }
 
 .main-tesla {
   position: relative;
-  background-image: url("../img/jpg/Tesla-Wordmark-Red.jpg");
+  /* background-image: 
+  url("../img/png/Tesla-Wordmark.png");
   background-position-y: -145px;
   background-position-x: -45px;
   background-repeat: no-repeat;
+  padding-bottom: 19px; */
 }
 
+.tesla-bgd {
+  position: absolute;
+  margin-top: -119px;
+}
 .tesla-car {
   width: 968px;
   height: 450px;
-  padding-left: 154px;
+  padding: 20px 0 24px 154px;
 }
 
 .content__data-car {
@@ -275,18 +281,22 @@ padding-bottom: 4px;
   cursor: pointer;
 }
 
-@media (min-width:1024px) and (max-width:1280px) {
+@media (min-width:1200px) and (max-width:1280px) {
   .menubar__link:nth-child(5) {
     margin-right: 170px;
   }
-  .content {
-    background-size: contain;
-    background-position-y: 0px;
-    background-position-x: 30px;
-  }
   .content__title {
-    margin-bottom: 390px;
+    margin-bottom: px;
   }
+  .main-tesla {
+    
+    background-position-x: -px;
+    background-position-y: px;
+  }
+  .tesla-car {
+    padding-left: px;
+  }
+  
   
 }
 
