@@ -128,27 +128,21 @@
 .content__title {
   font-weight: 600;
   font-size: 16px;
-  /* padding-bottom: 26px; */
 }
 
 .main-tesla {
   position: relative;
-  /* background-image: 
-  url("../img/png/Tesla-Wordmark.png");
-  background-position-y: -145px;
-  background-position-x: -45px;
-  background-repeat: no-repeat;
-  padding-bottom: 19px; */
 }
 
 .tesla-bgd {
   position: absolute;
-  margin-top: -119px;
+  top: -119px;
+  left: -45px;
 }
 .tesla-car {
   width: 968px;
   height: 450px;
-  padding: 20px 0 24px 154px;
+  padding: 24px 0 20px 154px;
 }
 
 .content__data-car {
@@ -281,31 +275,72 @@ padding-bottom: 4px;
   cursor: pointer;
 }
 
-@media (min-width:1200px) and (max-width:1280px) {
+
+@media (min-width:1200px) and (max-width:1295px) {
   .menubar__link:nth-child(5) {
     margin-right: 170px;
   }
-  .content__title {
-    margin-bottom: px;
-  }
-  .main-tesla {
-    
-    background-position-x: -px;
-    background-position-y: px;
+  .tesla-bgd{
+    height: auto;
+    width: 100%;
+    max-width: 1295px;
+    top: -103px;
+    left: 0;
   }
   .tesla-car {
-    padding-left: px;
+    padding: 23px 0 20px 107px;
   }
-  
-  
-}
+  .content__data-car {
+    padding: 0 232px 22px 199px;
+  }
 
-@media (min-width:768px) and (max-width:1024px) {
+}
+@media (min-width:1024px) and (max-width:1199px) {
+  .menubar__link:nth-child(5) {
+    margin-right: 120px;
+  }
+  .tesla-bgd, .tesla-car {
+    height: auto;
+    width: 100%;
+    max-width: 1199px;
+  }
+  .tesla-bgd{
+    top: -75px;
+    left: 0;
+  }
+  .tesla-car {
+    padding: 65px 0 20px 4px;
+  }
+  .content__data-car {
+    padding: 0 81px 22px 0px;
+  }
+  .content__facts {
+    padding: 3px 0 0 156px;
+  }
+  .data__speed-block {
+    padding-right: 88px;
+  }
+  .data__specifications {
+    display: block;
+  }
+  .test-btn {
+    padding-right: 42px;
+  }
+  .testdrive {
+    margin-right: 60px;
+  }
+}
+@media (min-width:900px) and (max-width:1023px) {
+
+}
+@media (min-width:768px) and (max-width:899px) {
   .header {
-    padding: 25px 24px 98px 0;
+    padding: 25px 24px 96px 0;
   }
   .header__logo-img{
-    padding-left: 16px;
+    padding-left: 15px;
+    width: 167px;
+    height: 50px;
   }
   .menubar__link {
     display: none;
@@ -315,18 +350,27 @@ padding-bottom: 4px;
     height: 20px;
   }
   .second {
-    top: 9px;
+    top: 10px;
   }
   .third {
     top: 19px;
   }
-  .content {
-    background-size: cover;
-    background-position-x: 20px;
-    background-position-y: 90px;
+  
+  .tesla-bgd, .tesla-car {
+    /* height: auto;
+    width: 100%;
+    max-width: 1023px; */
   }
-  .content__title {
-    margin-bottom: 390px;
+  .tesla-bgd{
+    top: -22px;
+    width: 830px;
+    height: 271px;
+    padding-left: 35px;
+  }
+  .tesla-car {
+    width: 701px;
+    height: 332px;
+    padding: 85px 0 20px 33px;
   }
   .content__data-car {
     flex-direction: column;
