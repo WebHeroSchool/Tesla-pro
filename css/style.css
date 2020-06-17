@@ -312,10 +312,8 @@ padding-bottom: 4px;
     padding: 65px 0 20px 4px;
   }
   .content__data-car {
-    padding: 0 81px 22px 0px;
-  }
-  .content__facts {
-    padding: 3px 0 0 156px;
+    /* padding: 0 81px 22px 137px; */
+    padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 22px;
   }
   .data__speed-block {
     padding-right: 88px;
@@ -324,7 +322,7 @@ padding-bottom: 4px;
     display: block;
   }
   .test-btn {
-    padding-right: 42px;
+    padding-right: 0px;
   }
   .testdrive {
     margin-right: 60px;
