@@ -174,11 +174,17 @@
 }
 
 .data__speed-block {
-  padding-right: 40px;
+  padding-right: 82px;
 }
 
 .data__road-block {
 padding-bottom: 4px;
+}
+
+.data__dimention {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
 }
 
 .data__figures {
@@ -293,6 +299,9 @@ padding-bottom: 4px;
   .content__data-car {
     padding: 0 232px 22px 199px;
   }
+  .data__speed-block {
+    padding-right: 55px;
+  }
 
 }
 @media (min-width:1024px) and (max-width:1199px) {
@@ -312,14 +321,10 @@ padding-bottom: 4px;
     padding: 65px 0 20px 4px;
   }
   .content__data-car {
-    /* padding: 0 81px 22px 137px; */
     padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 22px;
   }
   .data__speed-block {
-    padding-right: 88px;
-  }
-  .data__specifications {
-    display: block;
+    padding-right: 35px;
   }
   .test-btn {
     padding-right: 0px;
@@ -327,9 +332,63 @@ padding-bottom: 4px;
   .testdrive {
     margin-right: 60px;
   }
+  
 }
 @media (min-width:900px) and (max-width:1023px) {
-
+  .menubar__link {
+    display: none;
+  }
+  .tesla-bgd, .tesla-car {
+    height: auto;
+    width: 100%;
+    max-width: 1023px;
+  }
+  .tesla-bgd{
+    top: -35px;
+    left: 0;
+  }
+  .tesla-car {
+    padding: 54px 0 20px 4px;
+  }
+  .content__data-car {
+    padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 22px;
+    flex-direction: column;
+  }
+  .content__facts {
+    padding-bottom: 20px;
+  }
+  .data__speed-icon {
+    width: 65px;
+    height: 50px;
+  }
+  .content__road-icon {
+    width: 43px;
+    height: 71px;
+  }
+  .data__figures {
+    font-size: 50px;
+  }
+  .data__specifications {
+    display: block;
+  }
+  .testdrive__img {
+    display: none;
+  }
+  .testdrive__text {
+    position: relative;
+    font-size: 16px;
+    color:  #e51937;
+  }
+  .testdrive__text:before {
+    position: absolute;
+    background-image: url("/img/png/steering-wheel-red.png");
+  }
+  .order-btn {
+    width: 221px;
+    height: 55px;
+    background-color: #e51937;
+    color: #fff;
+  }
 }
 @media (min-width:768px) and (max-width:899px) {
   .header {
