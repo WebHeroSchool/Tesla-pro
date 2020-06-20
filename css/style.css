@@ -185,6 +185,7 @@ padding-bottom: 4px;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-end;
+  
 }
 
 .data__figures {
@@ -351,11 +352,14 @@ padding-bottom: 4px;
     padding: 54px 0 20px 4px;
   }
   .content__data-car {
-    padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 22px;
+    padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 50px;
     flex-direction: column;
   }
   .content__facts {
-    padding-bottom: 20px;
+    padding-bottom: 65px;
+  }
+  .data__speed-block {
+    padding-right: 144px;
   }
   .data__speed-icon {
     width: 65px;
@@ -364,6 +368,9 @@ padding-bottom: 4px;
   .content__road-icon {
     width: 43px;
     height: 71px;
+  }
+  .data__dimention {
+    align-items: center;
   }
   .data__figures {
     font-size: 50px;
@@ -380,8 +387,14 @@ padding-bottom: 4px;
     color:  #e51937;
   }
   .testdrive__text:before {
-    position: absolute;
+    content: '';
     background-image: url("/img/png/steering-wheel-red.png");
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -45px;
+    top: -8px;
   }
   .order-btn {
     width: 221px;
@@ -407,16 +420,10 @@ padding-bottom: 4px;
     height: 20px;
   }
   .second {
-    top: 10px;
+    top: 9px;
   }
   .third {
-    top: 19px;
-  }
-  
-  .tesla-bgd, .tesla-car {
-    /* height: auto;
-    width: 100%;
-    max-width: 1023px; */
+    top: 18px;
   }
   .tesla-bgd{
     top: -22px;
@@ -427,11 +434,66 @@ padding-bottom: 4px;
   .tesla-car {
     width: 701px;
     height: 332px;
-    padding: 85px 0 20px 33px;
+    padding: 84px 0 20px 33px;
   }
   .content__data-car {
     flex-direction: column;
+    padding: 11px 0 55px 58px;
   }
+  .content__facts {
+    padding: 0px 0px 54px 0px;
+  }
+  .data__speed-block {
+    padding-right: 92px;
+  }
+  .data__speed-icon {
+    width: 78px;
+    height: 62px;
+    padding: 7px 14px 0 0;
+  }
+  .content__road-icon {
+    width: 48px;
+    height: 77px;
+  }
+  .data__dimention {
+    align-items: center;
+  }
+  .data__figures {
+    font-size: 51px;
+    padding-right: 6px;
+  }
+  .data__specifications {
+    display: block;
+  }
+  .testdrive__img {
+    display: none;
+  }
+  .testdrive__text {
+    position: relative;
+    font-size: 16px;
+    color:  #e51937;
+  }
+  .testdrive__text:before {
+    content: '';
+    background-image: url("/img/png/steering-wheel-red.png");
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -45px;
+    top: -8px;
+  }
+  .order-btn {
+    width: 221px;
+    height: 55px;
+    background-color: #e51937;
+    color: #fff;
+    font-size: 16px;
+  }
+  .arrow {
+    padding-left: 2px;
+  }
+  
 }
  @media (min-width:568) and (max-width: 768px) {
 
