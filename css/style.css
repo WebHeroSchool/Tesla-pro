@@ -309,7 +309,11 @@ padding-bottom: 4px;
   .menubar__link:nth-child(5) {
     margin-right: 120px;
   }
-  .tesla-bgd, .tesla-car {
+  .main-tesla {
+    display: flex;
+    justify-content: center;
+  }
+  .tesla-bgd {
     height: auto;
     width: 100%;
     max-width: 1199px;
@@ -339,9 +343,8 @@ padding-bottom: 4px;
   .menubar__link {
     display: none;
   }
-  .tesla-bgd, .tesla-car {
+  .tesla-bgd {
     height: auto;
-    width: 100%;
     max-width: 1023px;
   }
   .tesla-bgd{
@@ -349,7 +352,7 @@ padding-bottom: 4px;
     left: 0;
   }
   .tesla-car {
-    padding: 54px 0 20px 4px;
+    padding: 54px 0 20px 0px;
   }
   .content__data-car {
     padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 50px;
@@ -359,7 +362,7 @@ padding-bottom: 4px;
     padding-bottom: 65px;
   }
   .data__speed-block {
-    padding-right: 144px;
+    padding-right: 104px;
   }
   .data__speed-icon {
     width: 65px;
@@ -425,16 +428,19 @@ padding-bottom: 4px;
   .third {
     top: 18px;
   }
+  .main-tesla {
+    display: flex;
+    justify-content: center;
+  }
   .tesla-bgd{
     top: -22px;
-    width: 830px;
-    height: 271px;
+    max-width: 820px;
     padding-left: 35px;
   }
   .tesla-car {
-    width: 701px;
-    height: 332px;
-    padding: 84px 0 20px 33px;
+    max-width: 701px;
+    height: auto;
+    padding: 84px 0 30px 0px;
   }
   .content__data-car {
     flex-direction: column;
@@ -495,9 +501,172 @@ padding-bottom: 4px;
   }
   
 }
- @media (min-width:568) and (max-width: 768px) {
-
+ @media (min-width:568px) and (max-width:767px) {
+  .menubar__link {
+    display: none;
+  }
+  .content__main-title {
+    font-size: 75px;
+  }
+  .tesla-bgd{
+    top: -22px;
+    max-width: 100%;
+    height: auto;
+    /* max-width: 645px; */
+    padding-left: 22px;
+  }
+  .tesla-car {
+    /* max-width: 600px; */
+    max-width: 100%;
+    height: auto;
+    padding: 61px 0 30px 0px;
+  }
+  .content__data-car {
+    flex-direction: column;
+    padding: 11px 0 55px 58px;
+  }
+  .content__facts {
+    padding: 0px 0px 54px 0px;
+  }
+  .data__speed-block {
+    padding-right: 92px;
+  }
+  .data__speed-icon {
+    width: 55px;
+    height: 45px;
+    padding: 7px 14px 0 0;
+  }
+  .content__road-icon {
+    width: 40px;
+    height: 58px;
+  }
+  .data__dimention {
+    align-items: center;
+  }
+  .data__figures {
+    font-size: 43px;
+    padding-right: 6px;
+  }
+  .testdrive__img {
+    display: none;
+  }
+  .testdrive__text {
+    position: relative;
+    font-size: 16px;
+    color:  #e51937;
+  }
+  .testdrive__text:before {
+    content: '';
+    background-image: url("/img/png/steering-wheel-red.png");
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -45px;
+    top: -8px;
+  }
+  .order-btn {
+    width: 221px;
+    height: 55px;
+    background-color: #e51937;
+    color: #fff;
+    font-size: 16px;
+  }
  }
- @media (min-width:320) and (max-width: 568px) {
-
+ 
+ @media (min-width:375px) and (max-width:567px) {
+   .header {
+     padding-bottom: 45px;
+   }
+  .menubar__link {
+    display: none;
+  }
+  .button {
+    width: 24px;
+    height: 15px;
+  }
+  .second {
+    top: 7px;
+  }
+  .third {
+    top: 14px;
+  }
+  .content__main-title {
+    font-size: 50px;
+  }
+  .content__title {
+    font-size: 10px;
+  }
+  .main-tesla {
+    display: flex;
+    
+  }
+  .tesla-bgd{
+    top: 0;
+    max-width: 432px;
+    padding-left: 22px;
+  }
+  .tesla-car {
+    max-width: 356px;
+    height: auto;
+    padding: 44px 0 20px 12px;
+  }
+  .content__data-car {
+    flex-direction: column;
+    padding: 11px 0 26px 58px;
+  }
+  .content__facts {
+    padding: 0px 0px 54px 24px;
+  }
+  .data__speed-block {
+    padding-right: 36px;
+  }
+  .data__speed-icon {
+    width: 48px;
+    height: 38px;
+    padding: 7px 14px 0 0;
+  }
+  .content__road-icon {
+    width: 37px;
+    height: 55px;
+  }
+  .data__dimention {
+    align-items: flex-end;
+  }
+  .data__figures {
+    font-size: 30px;
+    padding-right: 11px;
+  }
+  .data__speed {
+    font-size: 18px;
+  }
+  .testdrive__img {
+    display: none;
+  }
+  .testdrive__text {
+    position: relative;
+    font-size: 14px;
+    color:  #e51937;
+  }
+  .testdrive__text:before {
+    content: '';
+    background-image: url("/img/png/steering-wheel-red.png");
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -40px;
+    top: -8px;
+  }
+  .order-btn {
+    width: 160px;
+    height: 40px;
+    background-color: #e51937;
+    color: #fff;
+    font-size: 13px;
+  }
+  .arrow {
+    padding-left: 2px;
+  }
 }
