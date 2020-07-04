@@ -9,7 +9,7 @@
 
 .header {
   display: flex;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -35,8 +35,10 @@
   white-space: nowrap;
 }
 
-.menubar__link:hover, 
-.menubar__link:active, 
+.menubar__link:hover,
+
+.menubar__link:active,
+
 .menubar__link:focus {
   cursor: pointer;
   color: #e51937;
@@ -103,8 +105,10 @@
   top: 14px;
 }
 
-.button:hover, 
-.button:focus, 
+.button:hover,
+
+.button:focus,
+
 .button:active {
   transform: rotate(90deg);
   cursor: pointer;
@@ -115,7 +119,8 @@
   position: relative;
 }
 
-.content__main-title, 
+.content__main-title,
+
 .content__title {
   text-align: center;
   margin: 0;
@@ -242,7 +247,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #e51937;
-  transition: all 0.5s ease 0s; 
+  transition: all 0.5s ease 0s;
 }
 
 .order-btn:hover {
@@ -250,7 +255,7 @@
   border: none;
   color: #e51937;
   background-color: #fff;
-  transition: all 0.5s ease 0s; 
+  transition: all 0.5s ease 0s;
   box-shadow: 0 4px 4px 2px #9b9999;
 }
 
@@ -272,8 +277,8 @@
 }
 
 .first-ln {
-  transform: translate(-7px, 7px) rotate(45deg);
-  top: 7px; 
+  transform: translate(-7px,7px) rotate(45deg);
+  top: 7px;
 }
 
 .second-ln {
@@ -294,6 +299,7 @@ position: relative;
 .ttl-img {
   
 }
+
 .info__title {
   position: relative;
   z-index: 2;
@@ -312,7 +318,7 @@ position: relative;
 
 .red-first {
   position: absolute;
-  transform: translate(226%, -185px);
+  transform: translate(226%,-185px);
   background-color: #e51937;
   color: #fff;
   max-width: 441px;
@@ -320,7 +326,7 @@ position: relative;
   box-sizing: border-box;
   padding: 54px 0 0 55px;
 }
- 
+
 .description__title {
   margin: 0 auto;
   font-weight: 500;
