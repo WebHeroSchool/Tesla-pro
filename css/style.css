@@ -31,7 +31,7 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 15px;
-  color:black;
+  color: black;
   white-space: nowrap;
 }
 
@@ -41,7 +41,7 @@
 
 .menubar__link:focus {
   cursor: pointer;
-  color:#e51937;
+  color: #e51937;
   box-shadow: 0 2px 0#e51937;
   opacity: 0.75;
   transition: 0.4s;
@@ -79,7 +79,7 @@
 
 .button {
   display: block;
-  background-color:#fff;
+  background-color: #fff;
   width: 24px;
   height: 16px;
   position: relative;
@@ -94,7 +94,7 @@
   position: absolute;
   width: inherit;
   height: 2px;
-  background-color:#e51937;
+  background-color: #e51937;
 }
 
 .second {
@@ -256,7 +256,7 @@
   color:#e51937;
   background-color:#fff;
   transition: all 0.5s ease 0s;
-  box-shadow: 0 4px 4px 2px#9b9999;
+  box-shadow: 0 4px 4px 2px #9b9999;
 }
 
 .arrow {
@@ -286,7 +286,7 @@
   top: 21px;
 }
 
-.arrow::hover {
+.arrow:hover {
   cursor: pointer;
 }
 
@@ -320,7 +320,7 @@ position: relative;
   position: absolute;
   transform: translate(226%, -185px);
   background-color:#e51937;
-  color:#fff;
+  color: #fff;
   max-width: 441px;
   height: 900px;
   box-sizing: border-box;
@@ -657,7 +657,7 @@ position: relative;
     font-size: 75px;
   }
   .content__facts {
-    padding: 0 0px 54px 0px;
+    padding: 0 0 54px 0;
   }
   .data__speed-block {
     padding-right: 92px;
