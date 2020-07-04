@@ -35,11 +35,7 @@
   white-space: nowrap;
 }
 
-.menubar__link:hover,
-
-.menubar__link:active,
-
-.menubar__link:focus {
+.menubar__link:hover, .menubar__link:active, .menubar__link:focus {
   cursor: pointer;
   color: #e51937;
   box-shadow: 0 2px 0#e51937;
@@ -105,11 +101,7 @@
   top: 14px;
 }
 
-.button:hover,
-
-.button:focus,
-
-.button:active {
+.button:hover, .button:focus, .button:active {
   transform: rotate(90deg);
   cursor: pointer;
   transition: all 0.5s ease 0s;
@@ -119,9 +111,7 @@
   position: relative;
 }
 
-.content__main-title,
-
-.content__title {
+.content__main-title, .content__title {
   text-align: center;
   margin: 0;
 }
@@ -273,7 +263,7 @@
   position: absolute;
   width: 22px;
   height: 3px;
-  background-color: #e51937;
+  background-color:#e51937;
 }
 
 .first-ln {
@@ -320,7 +310,7 @@
   position: absolute;
   transform: translate(226%, -185px);
   background-color:#e51937;
-  color: #fff;
+  color:#fff;
   max-width: 441px;
   height: 900px;
   box-sizing: border-box;
@@ -471,7 +461,7 @@
     font-size: 16px;
     color:#e51937;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     display: block;
