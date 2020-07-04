@@ -35,11 +35,11 @@
   white-space: nowrap;
 }
 
-.menubar__link:hover,
+.menubar__link::hover,
 
-.menubar__link:active,
+.menubar__link::active,
 
-.menubar__link:focus {
+.menubar__link::focus {
   cursor: pointer;
   color: #e51937;
   box-shadow: 0 2px 0 #e51937;
@@ -105,11 +105,11 @@
   top: 14px;
 }
 
-.button:hover,
+.button::hover,
 
-.button:focus,
+.button::focus,
 
-.button:active {
+.button::active {
   transform: rotate(90deg);
   cursor: pointer;
   transition: all 0.5s ease 0s;
@@ -250,7 +250,7 @@
   transition: all 0.5s ease 0s;
 }
 
-.order-btn:hover {
+.order-btn::hover {
   cursor: pointer;
   border: none;
   color: #e51937;
@@ -277,16 +277,16 @@
 }
 
 .first-ln {
-  transform: translate(-7px,7px) rotate(45deg);
+  transform: translate(-7px, 7px) rotate(45deg);
   top: 7px;
 }
 
 .second-ln {
-  transform: translate(7px, -7px) rotate(-45deg); 
+  transform: translate(7px, -7px) rotate(-45deg);
   top: 21px;
 }
 
-.arrow:hover {
+.arrow::hover {
   cursor: pointer;
 }
 
@@ -318,7 +318,7 @@ position: relative;
 
 .red-first {
   position: absolute;
-  transform: translate(226%,-185px);
+  transform: translate(226%, -185px);
   background-color: #e51937;
   color: #fff;
   max-width: 441px;
@@ -365,7 +365,7 @@ position: relative;
   padding-bottom: 38px;
 }
 
-@media (min-width:1200px) and (max-width:1295px) {
+@media (min-width: 1200px) and (max-width: 1295px) {
   .menubar__link:nth-child(5) {
     margin-right: 170px;
   }
@@ -387,7 +387,7 @@ position: relative;
   }
 }
 
-@media (min-width:1024px) and (max-width:1199px) {
+@media (min-width: 1024px) and (max-width: 1199px) {
   .menubar__link:nth-child(5) {
     margin-right: 120px;
   }
@@ -421,7 +421,7 @@ position: relative;
   }
 }
 
-@media (min-width:900px) and (max-width:1023px) {
+@media (min-width: 900px) and (max-width: 1023px) {
   .menubar__link {
     display: none;
   }
@@ -474,7 +474,7 @@ position: relative;
     font-size: 16px;
     color:  #e51937;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     display: block;
@@ -492,7 +492,7 @@ position: relative;
   }
 }
 
-@media (min-width:768px) and (max-width:899px) {
+@media (min-width: 768px) and (max-width: 899px) {
   .header {
     padding: 25px 24px 96px 0;
   }
@@ -560,7 +560,7 @@ position: relative;
     font-size: 16px;
     color:  #e51937;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     display: block;
@@ -582,7 +582,7 @@ position: relative;
   }
 }
 
-@media (min-width:812px) and (max-width:899px) {
+@media (min-width: 812px) and (max-width: 899px) {
   .tesla-bgd {
     width: 100%;
     top: -35px;
@@ -590,7 +590,7 @@ position: relative;
   }
 }
 
-@media (min-width:768px) and (max-width:811px) {
+@media (min-width: 768px) and (max-width: 811px) {
   .tesla-bgd {
     top: -22px;
     max-width: 831px;
@@ -598,7 +598,7 @@ position: relative;
   }
 }
 
-@media (min-width:700px) and (max-width:767px) {
+@media (min-width: 700px) and (max-width: 767px) {
   .tesla-bgd {
     top: -22px;
     width: 100%;
@@ -615,7 +615,7 @@ position: relative;
   }
 }
 
-@media (min-width:600px) and (max-width:699px) {
+@media (min-width: 600px) and (max-width: 699px) {
   .tesla-bgd {
     top: -22px;
     width: 100%;
@@ -632,7 +632,7 @@ position: relative;
   }
 }
 
-@media (min-width:568px) and (max-width:599px) {
+@media (min-width: 568px) and (max-width: 599px) {
   .tesla-bgd {
     top: -22px;
     max-width: 100%;
@@ -649,7 +649,7 @@ position: relative;
   }
 }
 
-@media (min-width:568px) and (max-width:767px) {
+@media (min-width: 568px) and (max-width: 767px) {
   .menubar__link {
     display: none;
   }
@@ -686,7 +686,7 @@ position: relative;
     font-size: 16px;
     color:  #e51937;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     display: block;
@@ -705,7 +705,7 @@ position: relative;
   }
  }
 
- @media (min-width:500px) and (max-width:567px) {
+ @media (min-width: 500px) and (max-width: 567px) {
   .tesla-bgd {
     top: -22px;
     max-width: 580px;
@@ -725,7 +725,7 @@ position: relative;
   }
 }
 
-@media (min-width:375px) and (max-width:499px) {
+@media (min-width: 375px) and (max-width: 499px) {
   .tesla-bgd {
     top: 7px;
     max-width: 100%;
@@ -744,7 +744,7 @@ position: relative;
   }
 }
 
- @media (min-width:375px) and (max-width:567px) {
+ @media (min-width: 375px) and (max-width: 567px) {
    .header {
     padding-bottom: 45px;
   }
@@ -804,7 +804,7 @@ position: relative;
     font-size: 14px;
     color:  #e51937;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     background-repeat: no-repeat;
@@ -827,7 +827,7 @@ position: relative;
   }
 }
 
-@media (max-width:374px) {
+@media (max-width: 374px) {
   .header {
     padding-bottom: 45px;
   }
@@ -903,7 +903,7 @@ position: relative;
     color:  #e51937;
     padding-left: 2px;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     background-repeat: no-repeat;
