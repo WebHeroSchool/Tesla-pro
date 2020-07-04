@@ -241,7 +241,7 @@
   border: 2px solid#e51937;
   width: 160px;
   height: 40px;
-  background-color:#fff;
+  background-color: #fff;
   font-weight: bold;
   font-size: 14px;
   text-align: center;
@@ -273,7 +273,7 @@
   position: absolute;
   width: 22px;
   height: 3px;
-  background-color:#e51937;
+  background-color: #e51937;
 }
 
 .first-ln {
@@ -293,7 +293,7 @@
 /* Описание стилей Третьей и Четвертой секции */
 
 .wrap-information {
-position: relative;
+  position: relative;
 }
 
 .ttl-img {
@@ -399,8 +399,6 @@ position: relative;
     height: auto;
     width: 100%;
     max-width: 1199px;
-  }
-  .tesla-bgd {
     top: -75px;
     left: 0;
   }
@@ -441,7 +439,6 @@ position: relative;
   .content__data-car {
     padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 50px;
     flex-direction: column;
-    padding: 0 222px 22px 312px;
   }
   .content__facts {
     padding-bottom: 65px;
@@ -832,7 +829,7 @@ position: relative;
     padding-bottom: 45px;
   }
   .header__logo-img {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .button {
     left: 40px;
@@ -918,7 +915,7 @@ position: relative;
     width: 160px;
     height: 40px;
     background-color:#e51937;
-    color:#fff;
+    color: #fff;
     font-size: 13px;
   }
   .arrow {
