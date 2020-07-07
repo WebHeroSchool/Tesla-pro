@@ -634,11 +634,13 @@
     width: 100%;
     height: auto;
   }
+
   .tesla-car {
     max-width: 700px;
     height: auto;
     padding: 80px 0 30px 0;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 80px;
@@ -875,7 +877,7 @@
     color: #e51937;
   }
 
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     background-repeat: no-repeat;
