@@ -390,6 +390,7 @@
     display: flex;
     justify-content: center;
   }
+
   .tesla-bgd {
     height: auto;
     width: 100%;
@@ -397,12 +398,15 @@
     top: -75px;
     left: 0;
   }
+
   .tesla-car {
     padding: 65px 0 20px 4px;
   }
+
   .content__data-car {
     padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 22px;
   }
+
   .data__speed-block {
     padding-right: 35px;
   }
@@ -442,11 +446,12 @@
   .data__speed-block {
     padding-right: 104px;
   }
-  
+
   .data__speed-icon {
     width: 65px;
     height: 50px;
   }
+
   .content__road-icon {
     width: 43px;
     height: 71px;
@@ -520,52 +525,65 @@
   .third {
     top: 18px;
   }
+
   .main-tesla {
     display: flex;
     justify-content: center;
   }
+
   .tesla-car {
     max-width: 701px;
     height: auto;
     padding: 84px 3px 30px 0;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 10px 0 55px 54px;
   }
+
   .content__facts {
     padding: 0 0 54px 0;
   }
+
   .data__speed-block {
     padding-right: 92px;
   }
+
   .data__speed-icon {
     width: 78px;
     height: 62px;
     padding: 7px 14px 0 0;
   }
+
   .content__road-icon {
     width: 48px;
     height: 77px;
   }
+
   .data__dimention {
     align-items: center;
   }
+
   .data__figures {
     font-size: 51px;
     padding-right: 6px;
   }
+
   .data__specifications {
     display: block;
   }
+
   .testdrive__img {
     display: none;
   }
+
   .testdrive__text {
     position: relative;
     font-size: 16px;
     color: #e51937;
   }
+
   .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
@@ -576,6 +594,7 @@
     left: -45px;
     top: -8px;
   }
+
   .order-btn {
     width: 221px;
     height: 55px;
@@ -660,9 +679,11 @@
   .header__logo-img {
     padding-left: 0;
   }
+
   .button {
     left: 37px;
   }
+
   .menubar__link {
     display: none;
   }
@@ -670,31 +691,39 @@
   .content__main-title {
     font-size: 75px;
   }
+
   .content__facts {
     padding: 0 0 54px 0;
   }
+
   .data__speed-block {
     padding-right: 92px;
   }
+
   .data__speed-icon {
     width: 55px;
     height: 45px;
     padding: 7px 14px 0 0;
   }
+
   .content__road-icon {
     width: 40px;
     height: 58px;
   }
+
   .data__dimention {
     align-items: center;
   }
+
   .data__figures {
     font-size: 43px;
     padding-right: 6px;
   }
+
   .testdrive__img {
     display: none;
   }
+
   .testdrive__text {
     position: relative;
     font-size: 16px;
@@ -711,6 +740,7 @@
     left: -45px;
     top: -8px;
   }
+
   .order-btn {
     width: 221px;
     height: 55px;
@@ -725,14 +755,17 @@
     top: -22px;
     max-width: 100%;
   }
+
   .tesla-car {
     max-width: 100%;
     height: auto;
     padding: 57px 0 30px 9px;
   }
+
   .content__main-title {
     font-size: 70px;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 48px;
@@ -744,14 +777,17 @@
     top: 7px;
     max-width: 100%;
   }
+
   .tesla-car {
     max-width: 100%;
     height: auto;
     padding: 51px 0 10px 0;
   }
+
   .content__main-title {
     font-size: 60px;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 37px;
@@ -762,20 +798,25 @@
   .header {
     padding-bottom: 45px;
   }
+
   .header__logo-img {
     padding-left: 0;
   }
+
   .menubar__link {
     display: none;
   }
+
   .button {
     width: 24px;
     height: 15px;
     left: 40px;
   }
+
   .second {
     top: 7px;
   }
+
   .third {
     top: 14px;
   }
@@ -783,43 +824,53 @@
   .content__title {
     font-size: 10px;
   }
+
   .main-tesla {
     display: flex;
   }
+
   .content__facts {
     padding: 0 0 37px 24px;
   }
+
   .data__speed-block {
     padding-right: 36px;
   }
+
   .data__speed-icon {
     width: 48px;
     height: 38px;
     padding: 7px 14px 0 0;
   }
+
   .content__road-icon {
     width: 37px;
     height: 55px;
   }
+
   .data__dimention {
     align-items: flex-end;
   }
+
   .data__figures {
     font-size: 30px;
     padding-right: 11px;
   }
-  
+
   .data__speed {
     font-size: 18px;
   }
+
   .testdrive__img {
     display: none;
   }
+
   .testdrive__text {
     position: relative;
     font-size: 14px;
     color: #e51937;
   }
+
   .testdrive__text:before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
@@ -831,6 +882,7 @@
     left: -40px;
     top: -8px;
   }
+
   .order-btn {
     width: 160px;
     height: 40px;
@@ -838,6 +890,7 @@
     color: #fff;
     font-size: 13px;
   }
+
   .arrow {
     padding-left: 2px;
   }
@@ -847,78 +900,99 @@
   .header {
     padding-bottom: 45px;
   }
+
   .header__logo-img {
     padding-left: 0;
   }
+
   .button {
     left: 40px;
   }
+
   .menubar__link {
     display: none;
   }
+
   .content__main-title {
     font-size: 60px;
   }
+
   .content__title {
     font-size: 10px;
   }
+
   .tesla-bgd {
     top: 5px;
     max-width: 100%;
   }
+
   .tesla-car {
     max-width: 100%;
     height: auto;
     padding: 47px 0 0 0;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 26px 58px;
   }
+
   .content__facts {
     padding: 0 0 40px 24px;
   }
+
   .data__speed-block {
     padding-right: 36px;
   }
+
   .data__speed-icon {
     width: 40px;
     height: 30px;
     padding: 7px 14px 0 0;
   }
+
   .content__road-icon {
     width: 30px;
     height: 48px;
   }
+
   .data__dimention {
     align-items: flex-end;
   }
+
   .data__figures {
     font-size: 26px;
     padding-right: 11px;
   }
+
   .data__speed {
     font-size: 12px;
   }
+
   .data__specifications {
     font-size: 11px;
   }
+
   .test-btn {
     padding-right: 60px;
   }
+
   .testdrive {
     margin-right: -35px;
   }
+
   .testdrive__img {
     display: none;
   }
+
   .testdrive__text {
     position: relative;
     font-size: 12px;
     color: #e51937;
     padding-left: 2px;
   }
-  .testdrive__text:before {
+
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     background-repeat: no-repeat;
@@ -929,6 +1003,7 @@
     left: -37px;
     top: -8px;
   }
+
   .order-btn {
     width: 120px;
     height: 30px;
@@ -936,6 +1011,7 @@
     color: #fff;
     font-size: 12px;
   }
+
   .arrow {
     padding-left: 2px;
   }
