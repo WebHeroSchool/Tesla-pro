@@ -311,7 +311,7 @@
   position: absolute;
   transform: translate(226%, -185px);
   background-color: #e51937;
-  color:#fff;
+  color: #fff;
   max-width: 441px;
   height: 900px;
   box-sizing: border-box;
@@ -547,7 +547,7 @@
     font-size: 16px;
     color: #e51937;
   }
-  .testdrive__text:before {
+  .testdrive__text::before {
     content: '';
     background-image: url("/img/png/steering-wheel-red.png");
     display: block;
@@ -737,10 +737,10 @@
 }
 
  @media (min-width: 375px) and (max-width: 567px) {
-   .header {
+  .header {
     padding-bottom: 45px;
   }
-   .header__logo-img {
+  .header__logo-img {
     padding-left: 0;
   }
   .menubar__link {
