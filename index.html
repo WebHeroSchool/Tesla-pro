@@ -15,14 +15,14 @@
         <a class="menubar__link" href="#">Model X</a>
         <a class="menubar__link" href="#">Model 3</a>
         <a class="menubar__link" href="#">Roadster</a>
-        <a class="menubar__link" href="#">Energy</a>
+        <a class="menubar__link menubar__link_nrg" href="#">Energy</a>
         <a class="menubar__link" href="#">Магазин</a>
         <a class="menubar__link" href="#">Войти</a>
-        <button class="menubar__button button">
-          <span class="button__line"></span>
-          <span class="button__line"></span>
-          <span class="button__line"></span>
-        </button>
+        <a class="menubar__button button" href="#">
+          <span class="button__line first"></span>
+          <span class="button__line second"></span>
+          <span class="button__line third"></span>
+        </a>
       </nav>
     </header>
     <main class="main">
@@ -33,34 +33,52 @@
       <h4 class="content__title">
         Добро пожаловать в будущее!
       </h4>
-      <img class="content__logo-img" src="img/jpg/Tesla logo car.jpg" alt="Tesla">
+      <div class="main-tesla">
+        <img class="tesla-bgd" src="/img/png/Tesla-Wordmark.png" alt="" ">
+        <img class="tesla-car" src="/img/png/tesla-png-tesla-png-hd-1636.png" alt="">
+      </div>
       <div class="content__data-car">
-        <div class="data">
-          <img class="data__img" src="img/png/Speed.png" alt="data car">
-          <span class="data__figures">2,7</span>
-          <span class="data__speed">сек</span>
-          <span class="data__specificstions">0-100 км/час</span>
+        <div class="content__facts data">
+          <img class="data__speed-icon" src="img/png/Speed.png" alt="data car">
+          <div class="data__speed-block">
+            <div class="data__dimention">
+              <span class="data__figures">2,7</span>
+              <span class="data__speed">сек</span>
+            </div>
+            <span class="data__specifications">0-100 км/час</span>
+          </div>
+          <img class="content__road-icon" src="img/png/Road icon.png" alt="road">
+          <div class="data__road-block">
+            <div class="data__dimention">
+              <span class="data__figures">632</span>
+              <span class="data__speed">км</span>
+            </div>
+            <span class="data__specifications">запас хода</span>
+          </div>
         </div>
-        <div class="data">
-          <img class="data__img" src="img/png/Road icon.png" alt="road">
-          <span class="data__figures">632</span>
-          <span class="data__speed">км</span>
-          <span class="data__specificstions">запас хода</span>
-        </div>
-        <div class="testdrive">
-          <img class="testdrive__img" src="img/png/steering-wheel.png" alt="wheel">
-          <span class="testdrive__text">Тест драйв</span>
+        <div class="test-btn">
+          <div class="content__testdive testdrive">
+            <img class="testdrive__img" src="img/png/steering-wheel.png" alt="wheel">
+            <span class="testdrive__text">Тест драйв</span>
+          </div>
+          <button class="order-btn">Заказать</button>
         </div>
       </div>
-      <button class="order-btn">Заказать</button>
+      <div class="arrow">
+        <span class="arrow__line first-ln"></span>
+        <span class="arrow__line second-ln"></span>
+      </div>
     </section>
     <section class="wrap-information">
       <div class="info">
+        <div class="ttl-img">
         <h1 class="info__title">Model S</h1>
         <img class="info__img" src="img/jpg/2013-tesla-model-s-cockpit.jpg" alt="tesla's salon">
-        <div class="descripton">
-          <h3 class="descripton__title">Будущее вождения</h3>
-          <p class="descripton__text">
+        </div>
+        <div class="red-first">
+        <div class="description">
+          <h3 class="description__title">Будущее вождения</h3>
+          <p class="description__text">
             Модель S обладает лучшей в своем классе вместимостью: в машине
             поместится до пяти взрослых и двух детей. Оснащена современным
             17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия
@@ -71,8 +89,10 @@
         </div>
         <div class="data description__screen">
           <img class="data__img" src="img/png/screen.png" alt="screen">
+          <div class="displ">
           <span class="data__figures">17</span>
           <span class="data__ins">дюймов</span>
+          </div>
           <span class="data__display">Большой дисплей</span>
         </div>
         <div class="data description__wifi">
@@ -91,6 +111,7 @@
           <span class="info-order__text">УЗНАТЬ БОЛЬШЕ</span>
           <button class="order-btn">Заказать</button>
         </div>
+      </div>
       </div>
     </section>
     <section class="wrap">
