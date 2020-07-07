@@ -653,11 +653,13 @@
     width: 100%;
     height: auto;
   }
+  
   .tesla-car {
     max-width: 100%;
     height: auto;
     padding: 69px 0 30px 0;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 45px;
@@ -670,11 +672,13 @@
     max-width: 100%;
     height: auto;
   }
+
   .tesla-car {
     max-width: 580px;
     height: auto;
     padding: 57px 0 30px 0;
   }
+
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 25px;
