@@ -424,6 +424,7 @@
   .menubar__link {
     display: none;
   }
+
   .tesla-bgd {
     top: -35px;
     left: 0;
@@ -431,10 +432,12 @@
     height: auto;
     max-width: 1023px;
   }
+
   .tesla-car {
     padding: 54px 0 20px 0;
     width: 100%;
   }
+
   .content__data-car {
     padding: 0 calc(321px - 2 * (321px - (321 * 100% / 1440))) 50px;
     flex-direction: column;
@@ -443,6 +446,7 @@
   .content__facts {
     padding-bottom: 65px;
   }
+
   .data__speed-block {
     padding-right: 104px;
   }
@@ -750,7 +754,7 @@
   }
 }
 
- @media (min-width: 500px) and (max-width: 567px) {
+@media (min-width: 500px) and (max-width: 567px) {
   .tesla-bgd {
     top: -22px;
     max-width: 100%;
@@ -794,7 +798,7 @@
   }
 }
 
- @media (min-width: 375px) and (max-width: 567px) {
+@media (min-width: 375px) and (max-width: 567px) {
   .header {
     padding-bottom: 45px;
   }
