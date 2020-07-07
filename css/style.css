@@ -984,11 +984,11 @@
   }
 
   .test-btn {
-    padding-right: 60px;
+    padding-right: 36px;
   }
 
   .testdrive {
-    margin-right: -35px;
+    margin-right: -15px;
   }
 
   .testdrive__img {
@@ -1015,8 +1015,8 @@
   }
 
   .order-btn {
-    width: 120px;
-    height: 30px;
+    width: 133px;
+    height: 35px;
     background-color: #e51937;
     color: #fff;
     font-size: 12px;
