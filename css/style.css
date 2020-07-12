@@ -289,6 +289,7 @@
 
 .wrap-information {
   position: relative;
+  padding-bottom: 720px;
 }
 
 .info__title {
@@ -309,13 +310,13 @@
 
 .red-first {
   position: absolute;
-  transform: translate(226%, -185px);
+  transform: translate(227%, -186px);
   background-color: #e51937;
   color: #fff;
-  max-width: 441px;
+  max-width: 440px;
   height: 900px;
   box-sizing: border-box;
-  padding: 54px 0 0 55px;
+  padding: 52px 0 0 52px;
 }
 
 .description__title {
@@ -324,7 +325,8 @@
   font-size: 31px;
   text-align: left;
   white-space: nowrap;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
+  padding-bottom: 8px;
 }
 
 .description__text {
@@ -332,7 +334,7 @@
   display: block;
   max-width: 100%;
   font-size: 16px;
-  padding: 11px 47px 71px 0;
+  padding: 4px 71px 71px 0;
   letter-spacing: 1px;
 }
 
@@ -341,18 +343,172 @@
   padding-bottom: 51px;
 }
 
+.data__img {
+  padding-right: 17px;
+}
+
 .displ {
   display: flex;
-  flex-wrap: nowrap;
+}
+
+.data__figures {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.data__ins {
+  font-size: 21px;
+  letter-spacing: 1px;
 }
 
 .data__display {
-  white-space: nowrap;
-  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  width: 100%;
 }
 
 .description__wifi {
+  display: flex;
   padding-bottom: 38px;
+}
+
+.wifi-text {
+  display: flex;
+}
+
+.data__wireless-update {
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.description__bag {
+  display: flex;
+  padding-bottom: 142px;
+}
+
+.capacity {
+  display: flex;
+}
+
+.data__liters {
+  font-size: 20px;
+}
+
+.info-order {
+  display: flex;
+  align-items: center;
+}
+
+.info-order__img {
+  padding-right: 7px;
+}
+
+.info-order__text {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-right: 36px;
+}
+
+.info-order__btn {
+  width: 164px;
+  height: 43px;
+  background-color: #e51937;
+  border: 2px solid#fff;
+  color: #fff;
+}
+
+.data__space {
+  display: flex;
+  font-size: 12px;
+}
+
+/* Описание четвертой секции */
+
+.details {
+  position: absolute;
+  background-color: #e51937;
+  transform: translateY(-7px);
+  color: #fff;
+  max-width: 440px;
+  height: 900px;
+  box-sizing: border-box;
+  padding: 23px 0 0 57px;
+  z-index: 2;
+}
+
+.description__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+.description__text {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  font-size: 16px;
+  padding: 4px 71px 71px 0;
+  letter-spacing: 1px;
+}
+
+.rating-container__title {
+  font-size: 30px;
+}
+
+.list {
+  list-style: none;
+  line-height: 37px;
+  padding-right: 20px;
+}
+
+.front {
+  padding-right: 38px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.side {
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stand {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rating__text-st {
+  padding-right: 20px;
+}
+
+.driver {
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.passenger {
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrap__img {
+  transform: translate(646px, 136px);
+  position: relative;
+  z-index: 2;
+}
+
+.wrap__img-car {
+  transform: translate(344px, 12px);
 }
 
 @media (min-width: 1200px) and (max-width: 1295px) {
