@@ -190,7 +190,7 @@
   align-items: flex-end;
 }
 
-.data__figures {
+.data__figure {
   font-weight: 600;
   font-size: 35px;
   padding-right: 3px;
@@ -390,7 +390,7 @@
   display: flex;
   flex-direction: column;
 }
-  
+
 .data__text2 {
   font-size: 12px;
   letter-spacing: 1px;
@@ -422,6 +422,8 @@
 }
 
 .data__space {
+  display: flex;
+  font-size: 12px;
   letter-spacing: 1px;
 }
 
@@ -447,11 +449,6 @@
   background-color: #e51937;
   border: 2px solid#fff;
   color: #fff;
-}
-
-.data__space {
-  display: flex;
-  font-size: 12px;
 }
 
 /* Описание четвертой секции */
@@ -608,6 +605,8 @@
 
 .wrap__img-car {
   transform: translate(346px, 11px);
+  position: relative;
+  z-index: 2;
 }
 
 .wrap__whs-img {
