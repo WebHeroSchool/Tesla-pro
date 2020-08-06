@@ -292,7 +292,9 @@
 .wrap-information {
   position: relative;
   padding-bottom: 720px;
-}
+  max-width: 1440px;
+  background-: url(img/jpg/2013-tesla-model-s-cockpit.jpg) 0 0/contain no-repeat;
+  }
 
 .info__title {
   position: relative;
@@ -304,7 +306,7 @@
 }
 
 .info__img {
-  width: 1273px;
+  max-width: 1273px;
   height: 843px;
   position: absolute;
   transform: translate(0, -128px);
@@ -312,13 +314,14 @@
 
 .red-first {
   position: absolute;
-  transform: translate(227%, -186px);
   background-color: #e51937;
   color: #fff;
   max-width: 441px;
-  height: 900px;
+  height: 896px;
   box-sizing: border-box;
   padding: 53px 0 0 52px;
+  right: 0;
+  top: -52px;
 }
 
 .description__title {
@@ -597,22 +600,34 @@
   justify-content: flex-start;
 }
 
+.wrap {
+  display: flex;
+}
+
 .wrap__img {
-  transform: translate(646px, 136px);
+  width: 931px;
+  height: 125px;
   position: relative;
   z-index: 2;
+  padding-left: 648px;
+  top: 143px;
 }
 
 .wrap__img-car {
-  transform: translate(346px, 11px);
   position: relative;
   z-index: 2;
+  display: block;
+  max-width: 100%;
+  right: 1095px;
+  top: 166px;
 }
 
 .wrap__whs-img {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   z-index: 1;
-  transform: translate(277px, 136px);
+  padding: 0 15px 15px 0;
 }
 
 @media (min-width: 1200px) and (max-width: 1295px) {
@@ -638,6 +653,24 @@
 
   .data__speed-block {
     padding-right: 55px;
+  }
+
+  .wrap__img-car {
+    max-width: 100%;
+  }
+
+  .wrap__whs-img {
+    position: fixed;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 1295px;
+  }
+
+  .wrap-information {
+    max-width: 1295px;
   }
 }
 
@@ -677,6 +710,17 @@
 
   .testdrive {
     margin-right: 60px;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 1199px;
+  }
+
+  .wrap-information {
+    max-width: 1199px;
+    margin: 0 auto;
   }
 }
 
@@ -759,6 +803,25 @@
     height: 55px;
     background-color: #e51937;
     color: #fff;
+  }
+
+  .info-order__btn {
+    width: 163px;
+    height: 42px;
+  }
+
+  .info__title {
+    font-size: 72px;
+    text-align: right;
+    padding: 0 130px 0 0;
+    top: -21px;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 1023px;
+    top: 90px;
   }
 }
 
@@ -869,6 +932,29 @@
 
   .arrow {
     padding-left: 2px;
+  }
+
+  .info__title {
+    font-size: 68px;
+    text-align: right;
+    padding: 0 130px 0 0;
+    top: -21px;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 899px;
+    top: 161px;
+  }
+
+  .wrap-information {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrap {
+    display: flex;
   }
 }
 
@@ -1018,6 +1104,19 @@
     color: #fff;
     font-size: 16px;
   }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 767px;
+  }
+
+  .info__title {
+    font-size: 62px;
+    text-align: right;
+    padding: 0 100px 30px 0;
+    
+  }
 }
 
 @media (min-width: 500px) and (max-width: 567px) {
@@ -1164,6 +1263,16 @@
   .arrow {
     padding-left: 2px;
   }
+
+  .info__title {
+    display: none;
+  }
+  
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 567px;
+  }
 }
 
 @media (max-width: 374px) {
@@ -1284,5 +1393,15 @@
 
   .arrow {
     padding-left: 2px;
+  }
+
+  .info__title {
+    display: none;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 374px;
   }
 }
