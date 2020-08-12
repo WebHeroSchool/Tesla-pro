@@ -290,15 +290,19 @@
 /* Описание третьей секции */
 
 .wrap-information {
-  position: relative;
-  padding-bottom: 720px;
-  max-width: 1440px;
-  background-: url(img/jpg/2013-tesla-model-s-cockpit.jpg) 0 0/contain no-repeat;
-  }
+  width: 1440px;
+  height: 844px;
+  padding-bottom: 9px;
+  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 0/contain no-repeat;
+}
+
+/* .wrap__pic {
+  width: inherit;
+  height: auto;
+  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) -19px 37px/cover no-repeat;
+  } */
 
 .info__title {
-  position: relative;
-  z-index: 2;
   color: #e51937;
   font-size: 71px;
   font-weight: 600;
@@ -313,15 +317,14 @@
 }
 
 .red-first {
-  position: absolute;
   background-color: #e51937;
   color: #fff;
-  max-width: 441px;
-  height: 896px;
+  max-width: 439px;
+  height: 907px;
   box-sizing: border-box;
-  padding: 53px 0 0 52px;
-  right: 0;
-  top: -52px;
+  padding: 58px 47px 0 52px;
+  float: right;  
+  margin: -185px 0 0 0;
 }
 
 .description__title {
@@ -331,16 +334,17 @@
   text-align: left;
   white-space: nowrap;
   letter-spacing: 2.5px;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 .drive {
   margin: 0 auto;
   display: block;
   max-width: 100%;
-  font-size: 16px;
-  padding: 4px 71px 69px 0;
+  font-size: 15px;
+  padding: 4px 0 75px 0;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .description__screen {
@@ -407,7 +411,7 @@
 
 .description__bag {
   display: flex;
-  padding-bottom: 174px;
+  padding-bottom: 177px;
 }
 
 .img-cap {
@@ -443,7 +447,7 @@
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
-  padding-right: 36px;
+  padding-right: 29px;
 }
 
 .info-order__btn {
@@ -464,8 +468,9 @@
   max-width: 440px;
   height: 900px;
   box-sizing: border-box;
-  padding: 23px 0 0 38px;
+  padding: 17px 0 0 38px;
   z-index: 2;
+  margin-top: 5px;
 }
 
 .description-car {
@@ -597,7 +602,11 @@
 .order {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+}
+
+.order-txt {
+  padding-right: 38px;
 }
 
 .wrap {
@@ -610,7 +619,7 @@
   position: relative;
   z-index: 2;
   padding-left: 648px;
-  top: 143px;
+  top: 142px;
 }
 
 .wrap__img-car {
@@ -666,11 +675,42 @@
   .info__img {
     height: auto;
     width: 100%;
-    max-width: 1295px;
+    max-width: 1200px;
   }
 
   .wrap-information {
-    max-width: 1295px;
+    max-width: 1200px;
+  }
+
+  .red-first {
+    height: 850px;
+  }
+
+  .drive {
+    font-size: 15px;
+  }
+
+  .description__bag {
+    padding-bottom: 136px;
+  }
+
+  .details {
+    margin-top: -51px;
+  }
+
+  .info-order__bttn {
+    width: 167px;
+  }
+
+  .wrap__img {
+    width: 561px;
+    height: 113px;
+  }
+
+  .wrap__img-car {
+    width: 879px;
+    height: 476px;
+    right: 847px;
   }
 }
 
@@ -719,9 +759,36 @@
   }
 
   .wrap-information {
-    max-width: 1199px;
-    margin: 0 auto;
+    max-width: 1024px;
   }
+
+  .red-first {
+    max-width: 391px;
+    height: 733px;
+  }
+
+  .description__title {
+    font-size: 26px;
+  }
+
+  .drive {
+    font-size: 12px;
+  }
+
+  .description__bag {
+    padding-bottom: 80px;
+  }
+
+  /* .info-order__btn {
+    width: 190px;
+    height: 40px;
+  } */
+
+  .details {
+    margin-top: -168px;
+    height: 933px;
+  }
+
 }
 
 @media (min-width: 900px) and (max-width: 1023px) {
