@@ -290,41 +290,27 @@
 /* Описание третьей секции */
 
 .wrap-information {
-  width: 1440px;
-  height: 844px;
-  padding-bottom: 9px;
-  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 0/contain no-repeat;
+  display: flex;
+  justify-content: space-between;
+  height: 832px;
+  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 68px/contain no-repeat;
 }
-
-/* .wrap__pic {
-  width: inherit;
-  height: auto;
-  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) -19px 37px/cover no-repeat;
-  } */
 
 .info__title {
   color: #e51937;
   font-size: 71px;
   font-weight: 600;
-  transform: translate(77px, 20px);
-}
-
-.info__img {
-  max-width: 1273px;
-  height: 843px;
-  position: absolute;
-  transform: translate(0, -128px);
+  padding: 14px 0 0 80px;
 }
 
 .red-first {
   background-color: #e51937;
   color: #fff;
   max-width: 439px;
-  height: 907px;
+  height: inherit;
   box-sizing: border-box;
-  padding: 58px 47px 0 52px;
-  float: right;  
-  margin: -185px 0 0 0;
+  padding: 52px 47px 0 52px;
+  float: right;
 }
 
 .description__title {
