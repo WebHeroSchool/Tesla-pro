@@ -477,8 +477,9 @@
   font-weight: 500;
   line-height: 31px;
   letter-spacing: 2px;
+  text-align: left;
   padding-bottom: 10px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .model-s {
@@ -775,16 +776,10 @@
     padding-bottom: 80px;
   }
 
-  /* .info-order__btn {
-    width: 190px;
-    height: 40px;
-  } */
-
   .details {
     margin-top: -168px;
     height: 933px;
   }
-
 }
 
 @media (min-width: 900px) and (max-width: 1023px) {
@@ -1016,15 +1011,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 669px;
     margin-top: -33px;
   }
 
-  /* .info {
-    margin-top: 170px;
-  } */
-
   .red-first {
-    max-width: 768px;
+    max-width: 899px;
     height: 487px;
     float: none;
     padding: 66px 47px 0 32px;
@@ -1098,13 +1090,31 @@
     font-size: 12px;
   }
 
-  .wrap {
-    display: flex;
-    flex-direction:;
+  .details {
+    max-width: 899px;
+    height: 487px;
+    padding: 66px 47px 0 14px;
   }
+
+  .redrow-scnd {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .description__title-most {
+    font-size: 30px;
+  }
+
+  .rating-container {
+    padding: 0 20px 80px 0;
+}
 
   .description__rating {
     display: none;
+  }
+
+  .images {
+    display: flex;
   }
 }
 
@@ -1265,7 +1275,47 @@
     font-size: 62px;
     text-align: right;
     padding: 0 100px 30px 0;
-    
+  }
+
+  .wrap-information {
+    justify-content: center;
+    flex-direction: column;
+    height: 669px;
+    margin-top: -33px;
+  }
+
+  .red-first {
+    max-width: 767px;
+    height: 487px;
+    float: none;
+  }
+
+  .redrow {
+    flex-direction: row;
+    display: flex;
+    height: 300px;
+  }
+
+  .details {
+    max-width: 767px;
+    height: 487px;
+  }
+
+  .redrow-scnd {
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .description-car {
+    padding: 0;
+  }
+
+  .rating-container {
+    padding: 0 0 0 0;
+  }
+
+  .description__rating {
+    display: none;
   }
 }
 
@@ -1418,10 +1468,31 @@
     display: none;
   }
   
-  .info__img {
+  /* .info__img {
     height: auto;
     width: 100%;
     max-width: 567px;
+  } */
+
+  .red-first, .details {
+    max-width: 567px;
+    height: 450px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .info-order {
+    display: none;
+  }
+
+  .rating-container {
+    display: none;
+  }
+
+  .description__rating {
+    display: none;
   }
 }
 
@@ -1553,5 +1624,26 @@
     height: auto;
     width: 100%;
     max-width: 374px;
+  }
+
+  .red-first, .details {
+    max-width: 374px;
+    height: 300px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .info-order {
+    display: none;
+  }
+
+  .rating-container {
+    display: none;
+  }
+
+  .description__rating {
+    display: none;
   }
 }
