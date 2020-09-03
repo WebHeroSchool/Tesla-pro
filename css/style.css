@@ -594,6 +594,10 @@
   align-items: center;
 }
 
+.images {
+  position: relative;
+}
+
 .wrap__img {
   width: 55%;
   height: 145px;
@@ -613,7 +617,7 @@
 }
 
 .wrap__whs-img {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 0;
   z-index: 1;
@@ -685,7 +689,8 @@
   }
 
   .wrap__whs-img {
-    position: fixed;
+    bottom: 0;
+    right: 0;
   }
 }
 
@@ -739,7 +744,7 @@
 
   .wrap-information, .wrap {
     height: 747px;
-    }
+  }
 
   .red-first {
     width: 400px;
@@ -884,9 +889,9 @@
   }
 
   .wrap__img-car {
-      max-width: 69%;
-      right: -314px;
-      top: 50px;
+    max-width: 69%;
+    right: -314px;
+    top: 50px;
   }
 }
 
@@ -1431,7 +1436,7 @@
 @media (min-width: 768px) and (max-width: 811px) {
   .tesla-bgd {
     top: -22px;
-    max-width: 831px;
+    width: 100%;
     left: -12px;
   }
 }
@@ -1902,9 +1907,10 @@
   }
 
   .tesla-car {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 57px 0 30px 9px;
+    box-sizing: border-box;
   }
 
   .content__main-title {
@@ -1917,7 +1923,7 @@
   }
   
   .wrap-information, .wrap {
-    height: 780px;
+    height: 772px;
   }
 
   .info__title {
@@ -1925,6 +1931,10 @@
     text-align: right;
     padding: 0 45px 30px 0;
     margin-top: 20px;
+  }
+
+  .red-first, .details {
+    height: 445px;
   }
 
   .description__title, .description__title-most {
@@ -1973,16 +1983,53 @@
   }
 }
 
+@media (min-width: 400px) and (max-width: 499px) {
+  .wrap-information, .wrap {
+    height: 605px;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+    margin-top: 75px;
+  }
+
+  .red-first, .details {
+    height: 340px;
+  }
+
+  .red-first {
+    padding: 30px 47px 0 35px;
+  }
+
+  .details {
+    padding: 4px 0 0 18px;
+  }
+
+  .wrap__img {
+    top: -640px;
+    height: 75px;
+  }
+
+  .wrap__img-car {
+    right: 0;
+    top: -632px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 499px) {
   .tesla-bgd {
     top: 7px;
-    max-width: 100%;
+    width: 100%;
   }
 
   .tesla-car {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 51px 0 10px 0;
+    box-sizing: border-box;
   }
 
   .content__main-title {
@@ -1996,14 +2043,47 @@
 }
 
 @media (min-width: 375px) and (max-width: 399px) {
-  .wrap-information {
-    height: 700px;
+  .wrap-information, .wrap {
+    height: 563px;
   }
-}
 
-@media (min-width: 400px) and (max-width: 499px) {
-  .wrap-information {
-    height: 715px;
+  .red-first, .details {
+    height: 315px;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+    margin-top: 80px;
+  }
+
+  .description__title, .description__title-most {
+    font-size: 30px;
+  }
+
+  .red-first {
+    padding: 25px 23px 0 33px;
+  }
+
+  .details {
+    padding: 0 0 0 13px;
+  }
+
+  .model-s {
+    padding: 5px 34px 64px 0;
+  }
+
+  .wrap__img {
+    top: -593px;
+    height: 75px;
+  }
+
+  .wrap__img-car {
+    width: 98%;
+    top: -580px;
+    right: 12px;
   }
 }
 
@@ -2121,12 +2201,7 @@
 
   .red-first, .details {
     max-width: 100%;
-    height: 450px;
     float: none;
-  }
-
-  .description__rating {
-    display: none;
   }
 
   .icons {
@@ -2135,6 +2210,10 @@
 
   .info-order {
     display: none;
+  }
+
+  .title {
+    white-space: nowrap;
   }
 
   .rating-container {
@@ -2154,7 +2233,6 @@
   }
 
   .wrap__img {
-    /* top: -800px; */
     width: 100%;
     padding-left: 0;
   }
