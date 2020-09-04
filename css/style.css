@@ -1606,7 +1606,8 @@
     padding: 25px 25px 64px 0;
   }
 
-  .icons, .info-order,
+  .icons,
+  .info-order,
   .rating-container {
     display: none;
   }
@@ -1902,7 +1903,7 @@
   .title {
     padding-top: 0;
   }
-  
+
   .rating-container {
     padding: 0 5px 29px 0;
   }
@@ -1969,7 +1970,7 @@
 
   .icons,
   .info-order,
-  .rating-container  {
+  .rating-container {
     display: none;
   }
 
