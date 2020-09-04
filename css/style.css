@@ -138,6 +138,7 @@
 
 .tesla-bgd {
   position: absolute;
+  width: 100%;
   top: -119px;
   left: 0;
 }
@@ -452,6 +453,7 @@
 
 .wrap {
   position: relative;
+  height: 900px;
 }
 
 .details {
@@ -459,7 +461,7 @@
   background-color: #e51937;
   color: #fff;
   max-width: 440px;
-  height: 900px;
+  height: 100%;
   box-sizing: border-box;
   padding: 25px 0 0 38px;
   z-index: 2;
@@ -607,7 +609,7 @@
   height: 145px;
   position: relative;
   z-index: 2;
-  padding-left: 648px;
+  padding-left: 583px;
   top: 150px;
 }
 
@@ -615,7 +617,7 @@
   position: relative;
   z-index: 2;
   display: block;
-  max-width: 100%;
+  max-width: 73%;
   right: -346px;
   top: 25px;
 }
