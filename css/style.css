@@ -1392,7 +1392,7 @@
     font-size: 16px;
     padding-right: 43px;
   }
-  
+
   .rating-container {
     padding: 0 5px 29px 0;
   }
@@ -1585,7 +1585,8 @@
     margin-top: 20px;
   }
 
-  .red-first, .details {
+  .red-first,
+  .details {
     height: 477px;
   }
 
@@ -1599,7 +1600,7 @@
     letter-spacing: 3px;
   }
 
-  .drive, 
+  .drive,
   .model-s {
     font-size: 21px;
     padding: 25px 25px 64px 0;
@@ -1684,8 +1685,9 @@
   .description__title-most {
     white-space: nowrap;
   }
-  
-  .drive, .model-s {
+
+  .drive,
+  .model-s {
     font-size: 21px;
     padding: 25px 0 64px 0;
   }
@@ -1966,7 +1968,7 @@
   }
 
   .icons,
-  .info-order, 
+  .info-order,
   .rating-container  {
     display: none;
   }
