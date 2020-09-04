@@ -138,6 +138,7 @@
 
 .tesla-bgd {
   position: absolute;
+  width: 100%;
   top: -119px;
   left: 0;
 }
@@ -190,7 +191,7 @@
   align-items: flex-end;
 }
 
-.data__figures {
+.data__figure {
   font-weight: 600;
   font-size: 35px;
   padding-right: 3px;
@@ -287,72 +288,346 @@
 
 /* Описание стилей Третьей и Четвертой секции */
 
+/* Описание третьей секции */
+
 .wrap-information {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 902px;
+  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 68px/contain no-repeat;
 }
 
 .info__title {
-  position: relative;
-  z-index: 2;
   color: #e51937;
   font-size: 71px;
   font-weight: 600;
-  transform: translate(77px, 20px);
+  padding: 19px 0 0 80px;
 }
 
-.info__img {
-  width: 1273px;
-  height: 843px;
-  position: absolute;
-  transform: translate(0, -128px);
+.info {
+  padding-top: 3px;
 }
 
 .red-first {
-  position: absolute;
-  transform: translate(226%, -185px);
   background-color: #e51937;
   color: #fff;
-  max-width: 441px;
+  max-width: 440px;
   height: 900px;
   box-sizing: border-box;
-  padding: 54px 0 0 55px;
+  padding: 52px 47px 0 52px;
+  float: right;
 }
 
 .description__title {
   margin: 0 auto;
   font-weight: 500;
-  font-size: 31px;
+  font-size: 33px;
   text-align: left;
   white-space: nowrap;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
+  padding-bottom: 5px;
 }
 
-.description__text {
+.drive {
   margin: 0 auto;
   display: block;
   max-width: 100%;
   font-size: 16px;
-  padding: 11px 47px 71px 0;
+  padding: 5px 0 75px 0;
   letter-spacing: 1px;
 }
 
 .description__screen {
   display: flex;
-  padding-bottom: 51px;
+  padding-bottom: 40px;
+}
+
+.img-inch {
+  padding-right: 24px;
 }
 
 .displ {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.data__figures {
+  font-size: 31px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.data__ins {
+  font-size: 21px;
+  letter-spacing: 1px;
 }
 
 .data__display {
-  white-space: nowrap;
-  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  width: 100%;
 }
 
 .description__wifi {
-  padding-bottom: 38px;
+  display: flex;
+  padding-bottom: 35px;
+}
+
+.img-wifi {
+  width: 40px;
+  height: 32px;
+  padding: 13px 17px 0 0;
+}
+
+.wifi-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.update {
+  display: flex;
+  flex-direction: column;
+}
+
+.data__text2 {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.data__wireless-update {
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.description__bag {
+  display: flex;
+  padding-bottom: 169px;
+}
+
+.img-cap {
+  padding-right: 25px;
+}
+
+.capacity {
+  display: flex;
+  flex-direction: column;
+}
+
+.data__liters {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.data__space {
+  display: flex;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.info-order {
+  display: flex;
+  align-items: center;
+}
+
+.info-order__img {
+  padding-right: 7px;
+}
+
+.info-order__text {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-right: 29px;
+}
+
+.info-order__btn {
+  width: 163px;
+  height: 42px;
+  background-color: #e51937;
+  border: 2px solid#fff;
+  color: #fff;
+}
+
+/* Описание четвертой секции */
+
+.wrap {
+  position: relative;
+  height: 900px;
+}
+
+.details {
+  position: absolute;
+  background-color: #e51937;
+  color: #fff;
+  max-width: 440px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 25px 0 0 38px;
+  z-index: 2;
+}
+
+.description-car {
+  padding-left: 19px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 52px 0 0;
+}
+
+.description__title-most {
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.model-s {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  font-size: 15px;
+  padding: 5px 71px 64px 0;
+  letter-spacing: 1px;
+}
+
+.rating-container {
+  padding: 0 20px 80px 20px;
+}
+
+.rating-container__title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  padding-bottom: 6px;
+}
+
+.rating-container__list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.rating {
+  list-style: none;
+  line-height: 37px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating__img {
+  padding-right: 3px;
+}
+
+.front {
+  padding-right: 67px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.side {
+  padding-right: 92px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.stand {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.rating__text-st {
+  padding-right: 32px;
+}
+
+.driver {
+  padding-right: 56px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.passenger {
+  padding-right: 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.description__rating {
+  display: flex;
+  padding: 0 0 3px 19px;
+}
+
+.data__img-sec {
+  padding: 3px 25px 60px 10px;
+  width: 62px;
+  height: 74px;
+}
+
+.five {
+  display: flex;
+  flex-direction: column;
+}
+
+.data__stars {
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.data__security {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+}
+
+.images {
+  position: relative;
+}
+
+.wrap__img {
+  width: 55%;
+  height: 145px;
+  position: relative;
+  z-index: 2;
+  padding-left: 583px;
+  top: 150px;
+}
+
+.wrap__img-car {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 73%;
+  right: -346px;
+  top: 25px;
+}
+
+.wrap__whs-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  padding: 0 15px 15px 0;
 }
 
 @media (min-width: 1200px) and (max-width: 1295px) {
@@ -378,6 +653,50 @@
 
   .data__speed-block {
     padding-right: 55px;
+  }
+
+  .data__figures {
+    font-weight: 600;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .wrap-information {
+    height: 863px;
+  }
+
+  .red-first {
+    height: 100%;
+  }
+
+  .drive {
+    font-size: 15px;
+  }
+
+  .description__bag {
+    padding-bottom: 150px;
+  }
+
+  .wrap__img {
+    width: 56%;
+    height: 145px;
+    padding-left: 529px;
+    top: 138px;
+  }
+
+  .wrap__img-car {
+    width: 72%;
+    right: -349px;
+    top: 35px;
+  }
+
+  .wrap__whs-img {
+    bottom: 0;
+    right: 0;
   }
 }
 
@@ -411,12 +730,175 @@
     padding-right: 35px;
   }
 
+  .data__figures {
+    font-weight: 600;
+  }
+
   .test-btn {
     padding-right: 0;
   }
 
   .testdrive {
     margin-right: 60px;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 1199px;
+  }
+
+  .wrap-information,
+  .wrap {
+    height: 747px;
+  }
+
+  .red-first {
+    width: 400px;
+    height: 100%;
+    padding: 37px 47px 0 45px;
+  }
+
+  .description__title {
+    font-size: 25px;
+  }
+
+  .drive {
+    padding-bottom: 60px;
+  }
+
+  .img-inch {
+    width: 30px;
+    height: 47px;
+  }
+
+  .data__figure {
+    font-size: 32px;
+  }
+
+  .data__ins {
+    font-size: 19px;
+  }
+
+  .img-wifi {
+    width: 38px;
+    height: 28px;
+  }
+
+  .data__wireless-update {
+    font-size: 18px;
+  }
+
+  .description__bag {
+    padding-bottom: 70px;
+  }
+
+  .img-cap {
+    width: 30px;
+    height: 44px;
+  }
+
+  .data__liters {
+    font-size: 18px;
+  }
+
+  .info-order__text {
+    white-space: nowrap;
+    font-size: 10px;
+  }
+
+  .info-order__btn {
+    width: 132px;
+    height: 38px;
+    font-size: 12px;
+  }
+
+  .details {
+    width: 400px;
+    height: 748px;
+    padding: 34px 0 0 47px;
+  }
+
+  .description-car {
+    padding-left: 0;
+  }
+
+  .title {
+    padding: 0 52px 0 0;
+  }
+
+  .description__title-most {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .model-s {
+    font-size: 16px;
+    padding: 5px 38px 50px 0;
+  }
+
+  .rating-container {
+    padding: 0 20px 27px 0;
+  }
+
+  .rating-container__title {
+    font-size: 25px;
+    padding-bottom: 0;
+  }
+
+  .rating__text {
+    font-size: 13px;
+    margin-top: -7px;
+  }
+
+  .side {
+    padding-right: 87px;
+  }
+
+  .rating__text-st {
+    padding-right: 38px;
+  }
+
+  .passenger {
+    padding-right: 53px;
+  }
+
+  .rating__img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .description__rating {
+    padding-bottom: 0;
+  }
+
+  .data__img-sec {
+    padding: 3px 25px 45px 10px;
+    width: 56px;
+    height: 68px;
+  }
+
+  .data__stars {
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .data__security {
+    font-size: 19px;
+    letter-spacing: 2px;
+  }
+
+  .wrap__img {
+    width: 50%;
+    height: 104px;
+    padding-left: 512px;
+    top: 130px;
+  }
+
+  .wrap__img-car {
+    width: 69%;
+    right: -314px;
+    top: 50px;
   }
 }
 
@@ -467,6 +949,7 @@
 
   .data__figures {
     font-size: 50px;
+    font-weight: 500;
   }
 
   .data__specifications {
@@ -499,6 +982,157 @@
     height: 55px;
     background-color: #e51937;
     color: #fff;
+  }
+
+  .wrap-information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-position-y: top;
+    height: 1125px;
+    margin-top: 0;
+  }
+
+  .info__title {
+    text-align: right;
+    padding: 0 130px 0 0;
+    margin-top: 45px;
+  }
+
+  .red-first {
+    max-width: 1023px;
+    height: 530px;
+    float: none;
+    padding: 63px 47px 0 0;
+  }
+
+  .redrow {
+    flex-direction: row;
+    display: flex;
+    height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .description,
+  .description-car {
+    padding-left: 61px;
+  }
+
+  .description__title {
+    font-size: 30px;
+  }
+
+  .drive {
+    max-width: 63%;
+    margin-left: 0;
+  }
+
+  .icons {
+    padding-right: 57px;
+  }
+
+  .data__wireless-update {
+    white-space: nowrap;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 1125px;
+  }
+
+  .details {
+    max-width: 1023px;
+    height: 530px;
+    padding: 66px 47px 0 0;
+    margin-top: 50px;
+  }
+
+  .redrow-scnd {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .description-car {
+    margin: 0;
+  }
+
+  .title {
+    padding-top: 0;
+  }
+
+  .description__title-most {
+    font-size: 30px;
+  }
+
+  .model-s {
+    max-width: 63%;
+    margin-left: 0;
+    font-size: 16px;
+    padding-right: 43px;
+  }
+
+  .rating-container {
+    padding: 0 0 29px 0;
+  }
+
+  .description__rating {
+    display: none;
+  }
+
+  .info-order {
+    display: flex;
+    justify-content: center;
+    padding: 17px 0 0 0;
+  }
+
+  .info-order__img {
+    width: 31px;
+    height: 31px;
+    padding-right: 14px;
+  }
+
+  .info-order__text {
+    font-size: 15px;
+    padding-right: 48px;
+  }
+
+  .info-order__btn {
+    width: 221px;
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .wrap__img {
+    top: -470px;
+    padding-left: 155px;
+    width: 70%;
+    height: 111px;
+  }
+
+  .wrap__img-car {
+    width: 94%;
+    right: -12px;
+    top: -573px;
+  }
+
+  .wrap__whs-img {
+    display: none;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1023px) {
+  .wrap__img {
+    top: -462px;
+    width: 67%;
+    height: 120px;
+  }
+
+  .wrap__img-car {
+    max-width: 88%;
+    right: -29px;
+    top: -573px;
   }
 }
 
@@ -570,7 +1204,8 @@
   }
 
   .data__figures {
-    font-size: 51px;
+    font-size: 45px;
+    font-weight: 600;
     padding-right: 6px;
   }
 
@@ -610,6 +1245,180 @@
   .arrow {
     padding-left: 2px;
   }
+
+  .info__title {
+    font-size: 68px;
+    text-align: right;
+    padding: 0 53px 0 0;
+    margin-top: 30px;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 899px;
+    top: 161px;
+  }
+
+  .wrap-information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-position-y: top;
+    height: 995px;
+    margin-top: 20px;
+  }
+
+  .red-first {
+    max-width: 899px;
+    height: 487px;
+    float: none;
+    padding: 63px 47px 0 32px;
+  }
+
+  .redrow {
+    flex-direction: row;
+    display: flex;
+    height: 300px;
+    padding-bottom: 3px;
+  }
+
+  .description {
+    padding-right: 86px;
+  }
+
+  .description__title {
+    padding-bottom: 15px;
+  }
+
+  .icons {
+    padding: 5px 62px 0 0;
+  }
+
+  .description__screen {
+    padding-bottom: 28px;
+  }
+
+  .img-inch {
+    width: 36px;
+    height: 52px;
+  }
+
+  .data__figure {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .data__display {
+    font-size: 14px;
+  }
+
+  .description__wifi {
+    padding-bottom: 32px;
+  }
+
+  .img-wifi {
+    padding-right: 20px;
+    float: left;
+  }
+
+  .up-date {
+    white-space: nowrap;
+  }
+
+  .description__bag {
+    padding-bottom: 0;
+  }
+
+  .img-cap {
+    width: 36px;
+    height: 50px;
+    padding-top: 6px;
+  }
+
+  .data__space {
+    font-size: 12px;
+  }
+
+  .info-order {
+    display: flex;
+    justify-content: center;
+    padding: 17px 0 0 0;
+  }
+
+  .info-order__img {
+    width: 31px;
+    height: 31px;
+    padding-right: 14px;
+  }
+
+  .info-order__text {
+    font-size: 15px;
+    padding-right: 48px;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+    height: 1030px;
+  }
+
+  .details {
+    max-width: 899px;
+    height: 487px;
+    padding: 66px 47px 0 14px;
+    margin-top: 50px;
+  }
+
+  .redrow-scnd {
+    flex-direction: row;
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .description-car {
+    padding-left: 13px;
+  }
+
+  .title {
+    padding-top: 0;
+  }
+
+  .description__title-most {
+    font-size: 30px;
+  }
+
+  .model-s {
+    font-size: 16px;
+    padding-right: 43px;
+  }
+
+  .rating-container {
+    padding: 0 5px 29px 0;
+  }
+
+  .description__rating {
+    display: none;
+  }
+
+  .wrap__img {
+    top: -417px;
+    padding-left: 95px;
+    width: 77%;
+    height: 111px;
+  }
+
+  .wrap__img-car {
+    right: 17px;
+    top: -524px;
+    width: 98%;
+  }
+
+  .wrap__whs-img {
+    display: none;
+  }
 }
 
 @media (min-width: 812px) and (max-width: 899px) {
@@ -618,12 +1427,22 @@
     top: -35px;
     left: 0;
   }
+
+  .wrap__img {
+    top: -426px;
+  }
+
+  .wrap__img-car {
+    right: -20px;
+    top: -524px;
+    width: 91%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 811px) {
   .tesla-bgd {
     top: -22px;
-    max-width: 831px;
+    width: 100%;
     left: -12px;
   }
 }
@@ -645,6 +1464,95 @@
     flex-direction: column;
     padding: 11px 0 55px 80px;
   }
+
+  .wrap-information {
+    height: 950px;
+  }
+
+  .info__title {
+    font-size: 62px;
+    text-align: right;
+    padding: 0 70px 30px 0;
+    margin-top: 25px;
+  }
+
+  .red-first,
+  .details {
+    height: 487px;
+  }
+
+  .red-first {
+    padding: 63px 47px 0 40px;
+  }
+
+  .description {
+    padding-right: 86px;
+  }
+
+  .description__title {
+    font-size: 26px;
+  }
+
+  .drive {
+    font-size: 14px;
+  }
+
+  .wrap {
+    height: 950px;
+  }
+
+  .details {
+    padding: 66px 47px 0 40px;
+  }
+
+  .description-car {
+    padding-left: 0;
+  }
+
+  .description__title-most {
+    font-size: 26px;
+  }
+
+  .model-s {
+    font-size: 14px;
+    padding-right: 30px;
+  }
+
+  .rating-container__title {
+    font-size: 24px;
+  }
+
+  .rating__text {
+    font-size: 13px;
+    margin-top: -5px;
+  }
+
+  .side {
+    padding-right: 85px;
+  }
+
+  .rating__text-st {
+    padding-right: 38px;
+  }
+
+  .info-order {
+    display: flex;
+    justify-content: center;
+    padding: 17px 0 0 0;
+  }
+
+  .wrap__img {
+    top: -400px;
+    padding-left: 95px;
+    width: 77%;
+    height: 111px;
+  }
+
+  .wrap__img-car {
+    right: 17px;
+    top: -507px;
+    width: 98%;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 699px) {
@@ -664,6 +1572,70 @@
     flex-direction: column;
     padding: 11px 0 55px 45px;
   }
+
+  .wrap-information,
+  .wrap {
+    height: 873px;
+  }
+
+  .info__title {
+    font-size: 56px;
+    text-align: right;
+    padding: 0 45px 30px 0;
+    margin-top: 20px;
+  }
+
+  .red-first,
+  .details {
+    height: 477px;
+  }
+
+  .red-first {
+    padding-left: 62px;
+  }
+
+  .description__title,
+  .description__title-most {
+    font-size: 43px;
+    letter-spacing: 3px;
+  }
+
+  .drive,
+  .model-s {
+    font-size: 21px;
+    padding: 25px 25px 64px 0;
+  }
+
+  .icons,
+  .info-order,
+  .rating-container {
+    display: none;
+  }
+
+  .wrap {
+    margin-top: 100px;
+  }
+
+  .details {
+    padding: 66px 47px 0 62px;
+  }
+
+  .description-car {
+    padding-left: 0;
+  }
+
+  .wrap__img {
+    top: -466px;
+    padding-left: 70px;
+    width: 80%;
+    height: 99px;
+  }
+
+  .wrap__img-car {
+    right: 17px;
+    top: -524px;
+    width: 98%;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 599px) {
@@ -682,6 +1654,74 @@
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 25px;
+  }
+
+  .wrap-information,
+  .wrap {
+    height: 852px;
+  }
+
+  .info__title {
+    font-size: 56px;
+    text-align: right;
+    padding: 0 45px 30px 0;
+    margin-top: 20px;
+  }
+
+  .red-first,
+  .details {
+    height: 477px;
+  }
+
+  .red-first {
+    padding-left: 62px;
+  }
+
+  .description__title,
+  .description__title-most {
+    font-size: 43px;
+    letter-spacing: 3px;
+  }
+
+  .description__title-most {
+    white-space: nowrap;
+  }
+
+  .drive,
+  .model-s {
+    font-size: 21px;
+    padding: 25px 0 64px 0;
+  }
+
+  .icons,
+  .info-order,
+  .rating-container {
+    display: none;
+  }
+
+  .wrap {
+    margin-top: 100px;
+  }
+
+  .details {
+    padding: 66px 47px 0 62px;
+  }
+
+  .description-car {
+    padding-left: 0;
+  }
+
+  .wrap__img {
+    top: -455px;
+    padding-left: 30px;
+    width: 90%;
+    height: 99px;
+  }
+
+  .wrap__img-car {
+    right: 17px;
+    top: -542px;
+    width: 98%;
   }
 }
 
@@ -758,6 +1798,124 @@
     color: #fff;
     font-size: 16px;
   }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 767px;
+  }
+
+  .wrap-information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-position-y: top;
+    margin-top: 20px;
+  }
+
+  .red-first {
+    max-width: 100%;
+    float: none;
+  }
+
+  .redrow {
+    display: flex;
+    height: 300px;
+    padding-bottom: 3px;
+  }
+
+  .icons {
+    padding: 5px 62px 0 0;
+  }
+
+  .description__screen {
+    padding-bottom: 28px;
+  }
+
+  .img-inch {
+    width: 36px;
+    height: 52px;
+  }
+
+  .data__figure {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .data__display {
+    font-size: 14px;
+  }
+
+  .description__wifi {
+    padding-bottom: 32px;
+  }
+
+  .img-wifi {
+    padding-right: 20px;
+    float: left;
+  }
+
+  .up-date {
+    white-space: nowrap;
+  }
+
+  .description__bag {
+    padding-bottom: 0;
+  }
+
+  .img-cap {
+    width: 36px;
+    height: 50px;
+    padding-top: 6px;
+  }
+
+  .data__space {
+    font-size: 12px;
+  }
+
+  .info-order__img {
+    width: 31px;
+    height: 31px;
+    padding-right: 14px;
+  }
+
+  .info-order__text {
+    font-size: 15px;
+    padding-right: 48px;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+  }
+
+  .details {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  .redrow-scnd {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .title {
+    padding-top: 0;
+  }
+
+  .rating-container {
+    padding: 0 5px 29px 0;
+  }
+
+  .description__rating {
+    display: none;
+  }
+
+  .wrap__whs-img {
+    display: none;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 567px) {
@@ -767,9 +1925,10 @@
   }
 
   .tesla-car {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 57px 0 30px 9px;
+    box-sizing: border-box;
   }
 
   .content__main-title {
@@ -780,18 +1939,124 @@
     flex-direction: column;
     padding: 11px 0 55px 48px;
   }
+
+  .wrap-information,
+  .wrap {
+    height: 772px;
+  }
+
+  .info__title {
+    font-size: 56px;
+    text-align: right;
+    padding: 0 45px 30px 0;
+    margin-top: 20px;
+  }
+
+  .red-first,
+  .details {
+    height: 445px;
+  }
+
+  .description__title,
+  .description__title-most {
+    font-size: 43px;
+    letter-spacing: 3px;
+  }
+
+  .drive,
+  .model-s {
+    font-size: 21px;
+    padding: 25px 25px 64px 0;
+  }
+
+  .icons,
+  .info-order,
+  .rating-container {
+    display: none;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+    margin-top: 130px;
+  }
+
+  .details {
+    padding: 18px 47px 0 51px;
+  }
+
+  .description-car {
+    padding-left: 0;
+  }
+
+  .title {
+    white-space: nowrap;
+  }
+
+  .wrap__img {
+    top: -850px;
+    height: 99px;
+  }
+
+  .wrap__img-car {
+    right: 17px;
+    top: -805px;
+    width: 98%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+  .wrap-information,
+  .wrap {
+    height: 605px;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+    margin-top: 75px;
+  }
+
+  .red-first,
+  .details {
+    height: 340px;
+  }
+
+  .red-first {
+    padding: 30px 47px 0 35px;
+  }
+
+  .details {
+    padding: 4px 0 0 18px;
+  }
+
+  .wrap__img {
+    top: -640px;
+    height: 75px;
+  }
+
+  .wrap__img-car {
+    width: 100%;
+    right: 6px;
+    top: -632px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 499px) {
   .tesla-bgd {
     top: 7px;
-    max-width: 100%;
+    width: 100%;
   }
 
   .tesla-car {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 51px 0 10px 0;
+    box-sizing: border-box;
   }
 
   .content__main-title {
@@ -801,6 +2066,54 @@
   .content__data-car {
     flex-direction: column;
     padding: 11px 0 55px 37px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 399px) {
+  .wrap-information,
+  .wrap {
+    height: 563px;
+  }
+
+  .red-first,
+  .details {
+    height: 315px;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position: -24px 79px;
+    margin-top: 80px;
+  }
+
+  .description__title,
+  .description__title-most {
+    font-size: 30px;
+  }
+
+  .red-first {
+    padding: 25px 23px 0 33px;
+  }
+
+  .details {
+    padding: 0 0 0 13px;
+  }
+
+  .model-s {
+    padding: 5px 34px 64px 0;
+  }
+
+  .wrap__img {
+    top: -593px;
+    height: 75px;
+  }
+
+  .wrap__img-car {
+    width: 98%;
+    top: -580px;
+    right: 12px;
   }
 }
 
@@ -904,6 +2217,61 @@
   .arrow {
     padding-left: 2px;
   }
+
+  .wrap-information {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position-y: top;
+  }
+
+  .info__title {
+    display: none;
+  }
+
+  .red-first,
+  .details {
+    max-width: 100%;
+    float: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .info-order {
+    display: none;
+  }
+
+  .title {
+    white-space: nowrap;
+  }
+
+  .rating-container {
+    display: none;
+  }
+
+  .description__rating {
+    display: none;
+  }
+
+  .images {
+    position: relative;
+  }
+
+  .wrap__img,
+  .wrap__img-car {
+    position: absolute;
+  }
+
+  .wrap__img {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .wrap__whs-img {
+    display: none;
+  }
 }
 
 @media (max-width: 374px) {
@@ -944,11 +2312,13 @@
 
   .content__data-car {
     flex-direction: column;
-    padding: 11px 0 26px 58px;
+    padding: 11px 0 26px 0;
   }
 
   .content__facts {
-    padding: 0 0 40px 16px;
+    padding: 0 5px 40px 0;
+    margin-right: 0;
+    right: 20px;
   }
 
   .data__speed-block {
@@ -984,7 +2354,7 @@
   }
 
   .test-btn {
-    padding-right: 46px;
+    padding-left: 30px;
   }
 
   .testdrive {
@@ -1024,5 +2394,103 @@
 
   .arrow {
     padding-left: 2px;
+  }
+
+  .wrap-information,
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position-y: top;
+    height: 510px;
+  }
+
+  .info__title {
+    display: none;
+  }
+
+  .info__img {
+    height: auto;
+    width: 100%;
+    max-width: 374px;
+  }
+
+  .red-first,
+  .details {
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .red-first {
+    padding: 20px 20px 0 20px;
+  }
+
+  .description__title,
+  .description__title-most {
+    font-size: 24px;
+  }
+
+  .drive,
+  .model-s {
+    font-size: 14px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .info-order {
+    display: none;
+  }
+
+  .wrap {
+    margin-top: 80px;
+  }
+
+  .details {
+    padding: 0;
+  }
+
+  .description__title-most {
+    white-space: nowrap;
+    line-height: 18px;
+  }
+
+  .model-s {
+    padding: 5px 4px 64px 0;
+  }
+
+  .rating-container {
+    display: none;
+  }
+
+  .description__rating {
+    display: none;
+  }
+
+  .images {
+    position: relative;
+  }
+
+  .wrap__img,
+  .wrap__img-car {
+    position: absolute;
+  }
+
+  .wrap__img {
+    width: 100%;
+    padding-left: 0;
+    top: -550px;
+    height: 75px;
+  }
+
+  .wrap__img-car {
+    width: 98%;
+    top: -530px;
+    right: 12px;
+  }
+
+  .wrap__whs-img {
+    display: none;
   }
 }
