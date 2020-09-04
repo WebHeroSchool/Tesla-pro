@@ -746,7 +746,7 @@
     max-width: 1199px;
   }
 
-  .wrap-information, 
+  .wrap-information,
   .wrap {
     height: 747px;
   }
@@ -1011,7 +1011,7 @@
     padding-bottom: 10px;
   }
 
-  .description, 
+  .description,
   .description-car {
     padding-left: 61px;
   }
@@ -1070,7 +1070,7 @@
     font-size: 16px;
     padding-right: 43px;
   }
-  
+
   .rating-container {
     padding: 0 0 29px 0;
   }
@@ -1476,7 +1476,7 @@
     margin-top: 25px;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     height: 487px;
   }
@@ -1573,7 +1573,8 @@
     padding: 11px 0 55px 45px;
   }
 
-  .wrap-information, .wrap {
+  .wrap-information,
+  .wrap {
     height: 873px;
   }
 
@@ -1592,7 +1593,7 @@
     padding-left: 62px;
   }
 
-  .description__title, 
+  .description__title,
   .description__title-most {
     font-size: 43px;
     letter-spacing: 3px;
@@ -1604,7 +1605,7 @@
     padding: 25px 25px 64px 0;
   }
 
-  .icons, .info-order, 
+  .icons, .info-order,
   .rating-container {
     display: none;
   }
@@ -1653,7 +1654,7 @@
     padding: 11px 0 55px 25px;
   }
 
-  .wrap-information, 
+  .wrap-information,
   .wrap {
     height: 852px;
   }
@@ -1665,7 +1666,7 @@
     margin-top: 20px;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     height: 477px;
   }
@@ -1674,7 +1675,7 @@
     padding-left: 62px;
   }
 
-  .description__title, 
+  .description__title,
   .description__title-most {
     font-size: 43px;
     letter-spacing: 3px;
@@ -1689,7 +1690,7 @@
     padding: 25px 0 64px 0;
   }
 
-  .icons, .info-order, 
+  .icons, .info-order,
   .rating-container {
     display: none;
   }
@@ -1814,7 +1815,6 @@
   }
 
   .redrow {
-    flex-direction: ro;
     display: flex;
     height: 300px;
     padding-bottom: 3px;
@@ -1936,7 +1936,7 @@
     padding: 11px 0 55px 48px;
   }
   
-  .wrap-information, 
+  .wrap-information,
   .wrap {
     height: 772px;
   }
@@ -1948,23 +1948,25 @@
     margin-top: 20px;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     height: 445px;
   }
 
-  .description__title, 
+  .description__title,
   .description__title-most {
     font-size: 43px;
     letter-spacing: 3px;
   }
 
-  .drive, .model-s {
+  .drive,
+  .model-s {
     font-size: 21px;
     padding: 25px 25px 64px 0;
   }
 
-  .icons, .info-order, 
+  .icons,
+  .info-order, 
   .rating-container  {
     display: none;
   }
@@ -2002,7 +2004,8 @@
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
-  .wrap-information, .wrap {
+  .wrap-information,
+  .wrap {
     height: 605px;
   }
 
@@ -2014,7 +2017,7 @@
     margin-top: 75px;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     height: 340px;
   }
@@ -2062,12 +2065,12 @@
 }
 
 @media (min-width: 375px) and (max-width: 399px) {
-  .wrap-information, 
+  .wrap-information,
   .wrap {
     height: 563px;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     height: 315px;
   }
@@ -2080,7 +2083,7 @@
     margin-top: 80px;
   }
 
-  .description__title, 
+  .description__title,
   .description__title-most {
     font-size: 30px;
   }
@@ -2221,7 +2224,7 @@
     display: none;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     max-width: 100%;
     float: none;
@@ -2251,7 +2254,7 @@
     position: relative;
   }
 
-  .wrap__img, 
+  .wrap__img,
   .wrap__img-car {
     position: absolute;
   }
@@ -2386,7 +2389,7 @@
     padding-left: 2px;
   }
 
-  .wrap-information, 
+  .wrap-information,
   .wrap {
     display: flex;
     justify-content: flex-end;
@@ -2405,7 +2408,7 @@
     max-width: 374px;
   }
 
-  .red-first, 
+  .red-first,
   .details {
     max-width: 100%;
     height: 300px;
@@ -2415,12 +2418,13 @@
     padding: 20px 20px 0 20px;
   }
 
-  .description__title, 
+  .description__title,
   .description__title-most {
     font-size: 24px;
   }
   
-  .drive, .model-s {
+  .drive,
+  .model-s {
     font-size: 14px;
   }
 
@@ -2461,7 +2465,7 @@
     position: relative;
   }
 
-  .wrap__img, 
+  .wrap__img,
   .wrap__img-car {
     position: absolute;
   }
