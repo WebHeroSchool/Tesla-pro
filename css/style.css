@@ -2311,11 +2311,13 @@
 
   .content__data-car {
     flex-direction: column;
-    padding: 11px 0 26px 58px;
+    padding: 11px 0 26px 0;
   }
 
   .content__facts {
-    padding: 0 0 40px 16px;
+    padding: 0 5px 40px 0;
+    margin-right: 0;
+    right: 20px;
   }
 
   .data__speed-block {
@@ -2351,7 +2353,7 @@
   }
 
   .test-btn {
-    padding-right: 46px;
+    padding-left: 30px;
   }
 
   .testdrive {
