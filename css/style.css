@@ -450,6 +450,10 @@
 
 /* Описание четвертой секции */
 
+.wrap {
+  position: relative;
+}
+
 .details {
   position: absolute;
   background-color: #e51937;
@@ -1595,7 +1599,7 @@
     padding: 25px 25px 64px 0;
   }
 
-  .icons, .info-order, .rating-container  {
+  .icons, .info-order, .rating-container {
     display: none;
   }
 
@@ -1676,7 +1680,7 @@
     padding: 25px 0 64px 0;
   }
 
-  .icons, .info-order, .rating-container  {
+  .icons, .info-order, .rating-container {
     display: none;
   }
 
@@ -2362,6 +2366,17 @@
     padding-left: 2px;
   }
 
+  .wrap-information, .wrap {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-position-y: top;
+  }
+
+  .wrap-information, .wrap {
+    height: 510px;
+  }
+
   .info__title {
     display: none;
   }
@@ -2373,8 +2388,20 @@
   }
 
   .red-first, .details {
-    max-width: 374px;
+    max-width: 100%;
     height: 300px;
+  }
+
+  .red-first {
+    padding: 20px 20px 0 20px;
+  }
+
+  .description__title, .description__title-most {
+    font-size: 24px;
+  }
+  
+  .drive, .model-s {
+    font-size: 14px;
   }
 
   .icons {
@@ -2385,11 +2412,57 @@
     display: none;
   }
 
+  .wrap {
+    margin-top: 80px;
+  }
+
+  .details {
+    padding: 0;
+  }
+
+  .description__title-most {
+    white-space: nowrap;
+    line-height: 18px;
+  }
+
+  .model-s {
+    padding: 5px 4px 64px 0;
+  }
+
   .rating-container {
     display: none;
   }
 
   .description__rating {
+    display: none;
+  }
+
+  .images {
+    position: relative;
+  }
+
+  .wrap__img, .wrap__img-car {
+    position: absolute;
+  }
+
+  .wrap__img {
+    width: 100%;
+    padding-left: 0;
+    top: -550px;
+    height: 75px;
+  }
+
+  .wrap__img-car {
+    width: 98%;
+    top: -530px;
+    right: 12px;
+  }
+
+  .wrap__whs-img {
+    display: none;
+  }
+
+  .wrap__whs-img {
     display: none;
   }
 }
