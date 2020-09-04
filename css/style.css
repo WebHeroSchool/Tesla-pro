@@ -1693,7 +1693,8 @@
     padding: 25px 0 64px 0;
   }
 
-  .icons, .info-order,
+  .icons,
+  .info-order,
   .rating-container {
     display: none;
   }
@@ -1938,7 +1939,7 @@
     flex-direction: column;
     padding: 11px 0 55px 48px;
   }
-  
+
   .wrap-information,
   .wrap {
     height: 772px;
