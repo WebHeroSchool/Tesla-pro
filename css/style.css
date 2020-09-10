@@ -2058,7 +2058,7 @@
   }
 }
 
-@media (min-width: 450px) and (max-width: 499px){
+@media (min-width: 450px) and (max-width: 499px) {
   .tesla-car {
     height: 230px;
   }
@@ -2087,7 +2087,7 @@
 
 @media (min-width: 375px) and (max-width: 399px) {
   .tesla-car {
-      height: 175px;
+    height: 175px;
   }
 
   .wrap-information,
