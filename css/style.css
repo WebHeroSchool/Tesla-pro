@@ -294,7 +294,8 @@
   display: flex;
   justify-content: space-between;
   height: 902px;
-  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 68px/contain no-repeat;
+  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 68px / contain
+    no-repeat;
 }
 
 .info__title {
@@ -968,7 +969,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     display: block;
     position: absolute;
     width: 32px;
@@ -1225,7 +1226,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     display: block;
     position: absolute;
     width: 32px;
@@ -1782,7 +1783,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     display: block;
     position: absolute;
     width: 32px;
@@ -1957,6 +1958,10 @@
     height: 445px;
   }
 
+  .red-first {
+    padding: 35px 47px 0 52px;
+  }
+
   .description__title,
   .description__title-most {
     font-size: 43px;
@@ -2008,6 +2013,12 @@
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
+  .tesla-car {
+    width: 100%;
+    height: 230px;
+    padding: 51px 0 10px 0;
+  }
+
   .wrap-information,
   .wrap {
     height: 605px;
@@ -2046,6 +2057,18 @@
   }
 }
 
+@media (min-width: 400px) and (max-width: 449px) {
+  .tesla-car {
+    height: 210px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 499px) {
+  .tesla-car {
+    height: 230px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 499px) {
   .tesla-bgd {
     top: 7px;
@@ -2054,9 +2077,7 @@
 
   .tesla-car {
     width: 100%;
-    height: auto;
     padding: 51px 0 10px 0;
-    box-sizing: border-box;
   }
 
   .content__main-title {
@@ -2070,6 +2091,10 @@
 }
 
 @media (min-width: 375px) and (max-width: 399px) {
+  .tesla-car {
+    height: 175px;
+  }
+
   .wrap-information,
   .wrap {
     height: 563px;
@@ -2196,7 +2221,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     background-repeat: no-repeat;
     display: block;
     position: absolute;
@@ -2374,7 +2399,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     background-repeat: no-repeat;
     display: block;
     position: absolute;
