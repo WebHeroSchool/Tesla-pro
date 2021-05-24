@@ -294,7 +294,8 @@
   display: flex;
   justify-content: space-between;
   height: 902px;
-  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 68px/contain no-repeat;
+  background: url(../img/jpg/2013-tesla-model-s-cockpit.jpg) 0 68px / contain
+    no-repeat;
 }
 
 .info__title {
@@ -968,7 +969,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     display: block;
     position: absolute;
     width: 32px;
@@ -1225,7 +1226,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     display: block;
     position: absolute;
     width: 32px;
@@ -1782,7 +1783,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     display: block;
     position: absolute;
     width: 32px;
@@ -1955,6 +1956,10 @@
   .red-first,
   .details {
     height: 445px;
+  }
+
+  .red-first {
+    padding: 35px 47px 0 52px;
   }
 
   .description__title,
@@ -2216,7 +2221,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     background-repeat: no-repeat;
     display: block;
     position: absolute;
@@ -2394,7 +2399,7 @@
 
   .testdrive__text::before {
     content: '';
-    background-image: url("/img/png/steering-wheel-red.png");
+    background-image: url('/img/png/steering-wheel-red.png');
     background-repeat: no-repeat;
     display: block;
     position: absolute;
